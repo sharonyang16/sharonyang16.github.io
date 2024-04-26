@@ -19,7 +19,7 @@ const ProjectCard = (project: ProgrammingProjectInformation) => {
   // left side
   const ProjectImage = (project: ProgrammingProjectInformation) => {
     return (
-      <Grid item xs={6}>
+      <Grid item xs={4}>
         <Box
           sx={{
             height: '100%',
@@ -69,7 +69,7 @@ const ProjectCard = (project: ProgrammingProjectInformation) => {
     return (
       <Grid
         item
-        xs={6}
+        xs={8}
         sx={{
           height: '100%',
           display: 'flex',

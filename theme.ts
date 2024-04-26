@@ -1,4 +1,4 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
@@ -18,7 +18,7 @@ const theme = createTheme({
       primary: '#424651',
       secondary: '#545454',
     },
-    background: { main: '#ecf0f1' },
+    background: { default: '#ecf0f1' },
   },
   typography: {
     fontFamily: [
@@ -33,15 +33,14 @@ const theme = createTheme({
     },
     h5: {
       fontWeight: 'bold',
-      fontSize: '30px',
     },
     subtitle1: {
-      fontSize: '36px',
+      fontSize: '2rem',
       textAlign: 'justify',
       fontWeight: 'normal',
       color: 'secondary',
     },
-    body1: { fontSize: '20px' },
+    body1: { fontSize: '1rem' },
   },
   components: {
     MuiButton: {
@@ -60,11 +59,11 @@ const theme = createTheme({
     MuiDivider: {
       styleOverrides: {
         root: {
-          borderBottomWidth: '2px',
+          borderBottomWidth: '0.2rem',
         },
       },
     },
   },
 });
 
-export default theme;
+export default responsiveFontSizes(theme);

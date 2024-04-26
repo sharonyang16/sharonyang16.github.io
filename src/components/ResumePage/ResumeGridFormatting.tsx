@@ -29,7 +29,7 @@ export const ResumeLeftGridBody = ({
   children: React.ReactNode;
 }) => {
   return (
-    <Grid item xs={6}>
+    <Grid item xs={4}>
       <Typography variant='body1' align='right'>
         {children}
       </Typography>
@@ -43,7 +43,7 @@ export const ResumeRightGridBody = ({
   children: React.ReactNode;
 }) => {
   return (
-    <Grid item xs={6}>
+    <Grid item xs={8}>
       <Typography variant='body1' align='left'>
         {children}
       </Typography>
