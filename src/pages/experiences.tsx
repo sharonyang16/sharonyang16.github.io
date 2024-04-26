@@ -1,11 +1,11 @@
 import * as React from 'react';
-import { Box, Button, Divider } from '@mui/material';
-import DownloadIcon from '@mui/icons-material/Download';
+import { Button } from '@mui/material';
+import { Download } from '@mui/icons-material';
 import PageHeading from '../components/PageHeading';
-import ResumeExperiencesSection from '../components/ResumePage/ResumeExperiencesSection';
+import ResumeExperiencesSection from '../components/ResumePage/ResumeExperiences';
 import { RESUME_GOOGLE_DRIVE_ID } from '../data/Pages/ResumePageData';
 
-export default function ExpereicnePage() {
+const ExperiencePage = () => {
   return (
     <>
       <PageHeading
@@ -15,7 +15,7 @@ export default function ExpereicnePage() {
             href={`https://drive.google.com/uc?export=download&id=${RESUME_GOOGLE_DRIVE_ID}`}
             variant='contained'
             size='large'
-            endIcon={<DownloadIcon />}
+            endIcon={<Download />}
           >
             resume
           </Button>
@@ -25,4 +25,6 @@ export default function ExpereicnePage() {
       <ResumeExperiencesSection />
     </>
   );
-}
+};
+
+export default ExperiencePage;

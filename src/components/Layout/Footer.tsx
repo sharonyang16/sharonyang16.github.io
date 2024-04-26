@@ -1,26 +1,25 @@
 import * as React from 'react';
 import { Grid, Box, Link } from '@mui/material';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import { LinkedIn, GitHub } from '@mui/icons-material';
 import Copyright from './Copyright';
 
 interface FooterLink {
-  icon: any;
+  icon: React.ReactNode;
   url: string;
 }
 
 const links: FooterLink[] = [
   {
-    icon: <LinkedInIcon />,
+    icon: <LinkedIn />,
     url: 'https://www.linkedin.com/in/sharonyang16/',
   },
   {
-    icon: <GitHubIcon />,
+    icon: <GitHub />,
     url: 'https://github.com/sharonyang16',
   },
 ];
 
-export default function Footer() {
+const Footer = () => {
   return (
     <footer>
       <Grid container sx={{ pb: 2 }}>
@@ -45,4 +44,6 @@ export default function Footer() {
       </Grid>
     </footer>
   );
-}
+};
+
+export default Footer;

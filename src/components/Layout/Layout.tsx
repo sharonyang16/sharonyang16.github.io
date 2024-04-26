@@ -3,13 +3,13 @@ import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
 
-export default function Layout({
+const Layout = ({
   children,
   path,
 }: {
   children: React.ReactNode;
   path: string;
-}) {
+}) => {
   return (
     <>
       <Header />
@@ -17,4 +17,6 @@ export default function Layout({
       <Footer />
     </>
   );
-}
+};
+
+export default Layout;

@@ -1,13 +1,12 @@
-import React, { ReactNode } from 'react';
+import * as React from 'react';
 import { Box, Divider, Typography } from '@mui/material';
 
 interface PageHeadingProps {
   title: string;
-  rightComponent?: ReactNode;
+  rightComponent?: React.ReactNode;
   divider?: boolean;
 }
-
-export default function PageHeading(props: PageHeadingProps) {
+const PageHeading = (props: PageHeadingProps) => {
   return (
     <Box>
       <Box
@@ -30,4 +29,6 @@ export default function PageHeading(props: PageHeadingProps) {
       {props.divider && <Divider />}
     </Box>
   );
-}
+};
+
+export default PageHeading;

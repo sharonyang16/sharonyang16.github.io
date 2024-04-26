@@ -6,11 +6,10 @@ import {
   ResumeCompanyHeading,
   ResumeLeftGridBody,
   ResumeRightGridBody,
-  ResumeSectionHeading,
 } from './ResumeGridFormatting';
 import { experiences } from '../../data/Resume/ResumeData';
 
-function ToolsList(items: string[]) {
+const ToolsList = (items: string[]) => {
   return (
     <List>
       <Typography variant='body1' fontWeight='bold'>
@@ -24,9 +23,9 @@ function ToolsList(items: string[]) {
       ))}
     </List>
   );
-}
+};
 
-function BulletedList(items: string[]) {
+const BulletedList = (items: string[]) => {
   return (
     <List sx={{ listStyleType: 'disc' }}>
       {items.map((bullet: string) => (
@@ -39,9 +38,9 @@ function BulletedList(items: string[]) {
       ))}
     </List>
   );
-}
+};
 
-export default function ResumeExperiencesSection() {
+const ResumeExperiencesSection = () => {
   return (
     <GridMainContainer>
       {experiences.map((experience) => {
@@ -83,4 +82,6 @@ export default function ResumeExperiencesSection() {
       })}
     </GridMainContainer>
   );
-}
+};
+
+export default ResumeExperiencesSection;

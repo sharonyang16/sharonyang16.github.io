@@ -1,21 +1,33 @@
 import * as React from 'react';
 import { Grid, Typography } from '@mui/material';
 
-function ResumeSectionHeading({ children }: { children: React.ReactNode }) {
+export const ResumeSectionHeading = ({
+  children,
+}: {
+  children: React.ReactNode;
+}) => {
   return (
     <Grid item xs={6}>
       <Typography variant='h4'> {children} </Typography>
     </Grid>
   );
-}
-function ResumeCompanyHeading({ children }: { children: React.ReactNode }) {
+};
+export const ResumeCompanyHeading = ({
+  children,
+}: {
+  children: React.ReactNode;
+}) => {
   return (
     <Grid item xs={6}>
       <Typography variant='h5'> {children} </Typography>
     </Grid>
   );
-}
-function ResumeLeftGridBody({ children }: { children: React.ReactNode }) {
+};
+export const ResumeLeftGridBody = ({
+  children,
+}: {
+  children: React.ReactNode;
+}) => {
   return (
     <Grid item xs={6}>
       <Typography variant='body1' align='right'>
@@ -23,9 +35,13 @@ function ResumeLeftGridBody({ children }: { children: React.ReactNode }) {
       </Typography>
     </Grid>
   );
-}
+};
 
-function ResumeRightGridBody({ children }: { children: React.ReactNode }) {
+export const ResumeRightGridBody = ({
+  children,
+}: {
+  children: React.ReactNode;
+}) => {
   return (
     <Grid item xs={6}>
       <Typography variant='body1' align='left'>
@@ -33,11 +49,4 @@ function ResumeRightGridBody({ children }: { children: React.ReactNode }) {
       </Typography>
     </Grid>
   );
-}
-
-export {
-  ResumeSectionHeading,
-  ResumeCompanyHeading,
-  ResumeLeftGridBody,
-  ResumeRightGridBody,
 };

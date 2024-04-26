@@ -2,13 +2,13 @@ import * as React from 'react';
 import { motion } from 'framer-motion';
 import Grid from '@mui/material/Grid';
 
-export default function Main({
+const Main = ({
   children,
   path,
 }: {
   children: React.ReactNode;
   path: string;
-}) {
+}) => {
   return (
     <motion.main
       key={path}
@@ -27,4 +27,6 @@ export default function Main({
       </Grid>
     </motion.main>
   );
-}
+};
+
+export default Main;

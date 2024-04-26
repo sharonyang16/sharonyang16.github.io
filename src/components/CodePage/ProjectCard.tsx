@@ -13,11 +13,11 @@ import { GitHub, Web } from '@mui/icons-material';
 import { ProgrammingProjectInformation } from '../../data/ProgrammingProjects/ProjectsData';
 import { GridRow } from '../Layout/GridFormatting';
 
-export default function ProjectCard(project: ProgrammingProjectInformation) {
+const ProjectCard = (project: ProgrammingProjectInformation) => {
   const theme = useTheme();
 
   // left side
-  function ProjectImage(project: ProgrammingProjectInformation) {
+  const ProjectImage = (project: ProgrammingProjectInformation) => {
     return (
       <Grid item xs={6}>
         <Box
@@ -41,10 +41,10 @@ export default function ProjectCard(project: ProgrammingProjectInformation) {
         </Box>
       </Grid>
     );
-  }
+  };
 
   // right side
-  function ProjectDescription(project: ProgrammingProjectInformation) {
+  const ProjectDescription = (project: ProgrammingProjectInformation) => {
     /**
      * date is either...
      * "Month Year" - project completed in the same month as it was started
@@ -139,10 +139,12 @@ export default function ProjectCard(project: ProgrammingProjectInformation) {
         </Box>
       </Grid>
     );
-  }
+  };
   return (
     <GridRow>
       {ProjectImage(project)} {ProjectDescription(project)}
     </GridRow>
   );
-}
+};
+
+export default ProjectCard;
