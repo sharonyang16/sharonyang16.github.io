@@ -1,21 +1,33 @@
-import * as React from 'react';
-import { Typography } from '@mui/material';
+import React, { ReactNode } from 'react';
+import { Box, Divider, Typography } from '@mui/material';
 
 interface PageHeadingProps {
   title: string;
+  rightComponent?: ReactNode;
+  divider?: boolean;
 }
 
 export default function PageHeading(props: PageHeadingProps) {
   return (
-    <>
-      <Typography
-        variant='h1'
-        align='left'
-        fontWeight='bold'
-        color='text.primary'
+    <Box>
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+        }}
       >
-        {props.title}
-      </Typography>
-    </>
+        <Typography
+          variant='h1'
+          align='left'
+          fontWeight='bold'
+          color='text.primary'
+        >
+          {props.title}
+        </Typography>
+        {props.rightComponent}
+      </Box>
+      {props.divider && <Divider />}
+    </Box>
   );
 }

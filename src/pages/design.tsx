@@ -5,7 +5,7 @@ import ComingSoon from '../components/ComingSoon';
 export default function DesignPage() {
   return (
     <>
-      <PageHeading title='Design' />
+      <PageHeading title='Design' divider={true} />
       <ComingSoon />
     </>
   );
