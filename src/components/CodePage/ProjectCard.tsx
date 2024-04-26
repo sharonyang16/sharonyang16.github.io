@@ -17,7 +17,7 @@ const ProjectCard = (project: ProgrammingProjectInformation) => {
   const theme = useTheme();
 
   // left side
-  function ProjectImage(project: ProgrammingProjectInformation) {
+  const ProjectImage = (project: ProgrammingProjectInformation) => {
     return (
       <Grid item xs={6}>
         <Box
@@ -41,10 +41,10 @@ const ProjectCard = (project: ProgrammingProjectInformation) => {
         </Box>
       </Grid>
     );
-  }
+  };
 
   // right side
-  function ProjectDescription(project: ProgrammingProjectInformation) {
+  const ProjectDescription = (project: ProgrammingProjectInformation) => {
     /**
      * date is either...
      * "Month Year" - project completed in the same month as it was started
@@ -139,7 +139,7 @@ const ProjectCard = (project: ProgrammingProjectInformation) => {
         </Box>
       </Grid>
     );
-  }
+  };
   return (
     <GridRow>
       {ProjectImage(project)} {ProjectDescription(project)}
