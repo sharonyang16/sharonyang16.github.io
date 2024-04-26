@@ -1,12 +1,12 @@
 import * as React from 'react';
 import PageHeading from '../components/PageHeading';
-import ComingSoon from '../components/ComingSoon';
+import ContactSection from '../components/AboutPage/ContactSection';
 
 export default function AboutPage() {
   return (
     <>
       <PageHeading title='About' />
-      <ComingSoon />
+      <ContactSection />
     </>
   );
 }
