@@ -8,18 +8,20 @@ import { RESUME_GOOGLE_DRIVE_ID } from '../data/Pages/ResumePageData';
 export default function ExpereicnePage() {
   return (
     <>
-      <PageHeading title='Experiences' />
-      <Divider />
-      <Box sx={{ display: 'flex', justifyContent: 'end', py: '2rem' }}>
-        <Button
-          href={`https://drive.google.com/uc?export=download&id=${RESUME_GOOGLE_DRIVE_ID}`}
-          variant='contained'
-          size='large'
-          endIcon={<DownloadIcon />}
-        >
-          download
-        </Button>
-      </Box>
+      <PageHeading
+        title='Experiences'
+        rightComponent={
+          <Button
+            href={`https://drive.google.com/uc?export=download&id=${RESUME_GOOGLE_DRIVE_ID}`}
+            variant='contained'
+            size='large'
+            endIcon={<DownloadIcon />}
+          >
+            resume
+          </Button>
+        }
+        divider={true}
+      />
       <ResumeExperiencesSection />
     </>
   );

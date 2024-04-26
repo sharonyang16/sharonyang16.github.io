@@ -8,8 +8,7 @@ import { GridMainContainer } from '../components/Layout/GridFormatting';
 export default function CodePage() {
   return (
     <>
-      <PageHeading title='Code' />
-      <Divider />
+      <PageHeading title='Code' divider={true} />
       <GridMainContainer>
         {projects.map((project) => ProjectCard(project))}
       </GridMainContainer>
