@@ -4,7 +4,7 @@ import { Link } from 'gatsby-link';
 import Logo from '../../assets/Logo.svg';
 import { links } from '../../data/Layout/HeaderData';
 
-export default function Header() {
+const Header = () => {
   return (
     <header>
       <Grid container spacing={2}>
@@ -55,4 +55,6 @@ export default function Header() {
       </Grid>
     </header>
   );
-}
+};
+
+export default Header;

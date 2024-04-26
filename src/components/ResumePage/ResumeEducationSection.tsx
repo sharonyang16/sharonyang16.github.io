@@ -7,9 +7,9 @@ import {
   ResumeRightGridBody,
   ResumeSectionHeading,
 } from './ResumeGridFormatting';
-import { education } from '../../data/Resume/ResumeEducationData';
+import { education } from '../../data/Resume/ResumeData';
 
-export default function ResumeEducationSection() {
+const ResumeEducationSection = () => {
   return (
     <GridMainContainer>
       <GridRow>
@@ -38,4 +38,6 @@ export default function ResumeEducationSection() {
       </GridRow>
     </GridMainContainer>
   );
-}
+};
+
+export default ResumeEducationSection;

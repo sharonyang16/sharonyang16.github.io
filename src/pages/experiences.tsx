@@ -1,11 +1,11 @@
 import * as React from 'react';
-import { Box, Button, Divider } from '@mui/material';
+import { Button } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
 import PageHeading from '../components/PageHeading';
 import ResumeExperiencesSection from '../components/ResumePage/ResumeExperiencesSection';
 import { RESUME_GOOGLE_DRIVE_ID } from '../data/Pages/ResumePageData';
 
-export default function ExpereicnePage() {
+const ExperiencePage = () => {
   return (
     <>
       <PageHeading
@@ -25,4 +25,6 @@ export default function ExpereicnePage() {
       <ResumeExperiencesSection />
     </>
   );
-}
+};
+
+export default ExperiencePage;

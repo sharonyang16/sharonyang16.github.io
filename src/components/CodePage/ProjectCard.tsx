@@ -13,7 +13,7 @@ import { GitHub, Web } from '@mui/icons-material';
 import { ProgrammingProjectInformation } from '../../data/ProgrammingProjects/ProjectsData';
 import { GridRow } from '../Layout/GridFormatting';
 
-export default function ProjectCard(project: ProgrammingProjectInformation) {
+const ProjectCard = (project: ProgrammingProjectInformation) => {
   const theme = useTheme();
 
   // left side
@@ -145,4 +145,6 @@ export default function ProjectCard(project: ProgrammingProjectInformation) {
       {ProjectImage(project)} {ProjectDescription(project)}
     </GridRow>
   );
-}
+};
+
+export default ProjectCard;
