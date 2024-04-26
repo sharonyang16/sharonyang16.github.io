@@ -5,12 +5,12 @@ body {
 header,
 main,
 footer {
-  padding: 0px 48px 0px 48px;
+  padding: 0px 2.5rem 0px 2.5rem;
 }
 
 header {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 main {
