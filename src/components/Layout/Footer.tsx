@@ -23,8 +23,8 @@ const Footer = () => {
   return (
     <footer>
       <Grid container sx={{ pb: 2 }}>
-        <Grid item xs={3} />
-        <Grid item xs={9}>
+        <Grid item xs={0} md={3} />
+        <Grid item xs={12} md={9}>
           <Box sx={{ display: 'flex', justifyContent: 'end' }}>
             {links.map((link) => (
               <Link

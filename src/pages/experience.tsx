@@ -9,7 +9,7 @@ const ExperiencePage = () => {
   return (
     <>
       <PageHeading
-        title='Experiences'
+        title='Experience'
         rightComponent={
           <Button
             href={`https://drive.google.com/uc?export=download&id=${RESUME_GOOGLE_DRIVE_ID}`}

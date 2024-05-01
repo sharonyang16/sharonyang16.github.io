@@ -93,14 +93,13 @@ interface RoleInformation {
 }
 interface OrganizationInformation {
   organization: string;
-  location: string;
+
   roles: RoleInformation[];
 }
 
 export const experiences: OrganizationInformation[] = [
   {
-    organization: 'Northeastern Electric Racing (NER)',
-    location: 'Boston, MA',
+    organization: 'Northeastern Electric Racing',
     roles: [
       {
         title: 'Product Manager and UI/UX Designer',
@@ -134,7 +133,6 @@ export const experiences: OrganizationInformation[] = [
   {
     organization:
       'College of Arts, Media and Design (CAMD) at Northeastern University',
-    location: 'Boston, MA',
     roles: [
       {
         title: 'IT/Audio Visual Co-op',

@@ -1,35 +1,40 @@
 import * as React from 'react';
 import { Grid, Typography } from '@mui/material';
 
-export const ResumeSectionHeading = ({
-  children,
-}: {
+interface GridBreakpoints {
+  xs: number;
+  md: number;
+}
+
+interface ResumeGridProps {
   children: React.ReactNode;
-}) => {
-  return (
-    <Grid item xs={6}>
-      <Typography variant='h4'> {children} </Typography>
-    </Grid>
-  );
-};
+  breakpoints?: GridBreakpoints;
+}
+
 export const ResumeCompanyHeading = ({
   children,
-}: {
-  children: React.ReactNode;
-}) => {
+  breakpoints,
+}: ResumeGridProps) => {
   return (
-    <Grid item xs={6}>
-      <Typography variant='h5'> {children} </Typography>
+    <Grid
+      item
+      xs={breakpoints ? breakpoints.xs : 12}
+      md={breakpoints ? breakpoints.md : 8}
+    >
+      <Typography variant='h4'> {children} </Typography>
     </Grid>
   );
 };
 export const ResumeLeftGridBody = ({
   children,
-}: {
-  children: React.ReactNode;
-}) => {
+  breakpoints,
+}: ResumeGridProps) => {
   return (
-    <Grid item xs={4}>
+    <Grid
+      item
+      xs={breakpoints ? breakpoints.xs : 12}
+      md={breakpoints ? breakpoints.md : 4}
+    >
       <Typography variant='body1' align='right'>
         {children}
       </Typography>
@@ -39,11 +44,14 @@ export const ResumeLeftGridBody = ({
 
 export const ResumeRightGridBody = ({
   children,
-}: {
-  children: React.ReactNode;
-}) => {
+  breakpoints,
+}: ResumeGridProps) => {
   return (
-    <Grid item xs={8}>
+    <Grid
+      item
+      xs={breakpoints ? breakpoints.xs : 12}
+      md={breakpoints ? breakpoints.md : 8}
+    >
       <Typography variant='body1' align='left'>
         {children}
       </Typography>

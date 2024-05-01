@@ -1,37 +1,31 @@
 import * as React from 'react';
-import { List, ListItemText, Typography } from '@mui/material';
+import { List, ListItemText, Typography, Grid } from '@mui/material';
 import { format } from 'date-fns';
-import { GridMainContainer, GridRow } from '../Layout/GridFormatting';
-import {
-  ResumeCompanyHeading,
-  ResumeLeftGridBody,
-  ResumeRightGridBody,
-} from './ResumeGridFormatting';
 import { experiences } from '../../data/Resume/ResumeData';
 
 const ToolsList = (items: string[]) => {
   return (
     <List>
-      <Typography variant='body1' fontWeight='bold'>
-        Associated Tools/Skills
+      <Typography variant='body1' fontWeight='bold' display='inline'>
+        Associated Tools/Skills:{' '}
       </Typography>
-
-      {items.map((bullet: string) => (
-        <ListItemText primaryTypographyProps={{ variant: 'body1' }}>
-          {bullet}
-        </ListItemText>
-      ))}
+      <Typography variant='body1' display='inline'>
+        {items.join(', ')}
+      </Typography>
     </List>
   );
 };
 
 const BulletedList = (items: string[]) => {
   return (
-    <List sx={{ listStyleType: 'disc' }}>
+    <List sx={{ display: 'inline' }}>
       {items.map((bullet: string) => (
         <ListItemText
           primaryTypographyProps={{ variant: 'body1' }}
-          sx={{ display: 'list-item' }}
+          sx={{
+            display: 'list-item',
+            py: 1,
+          }}
         >
           {bullet}
         </ListItemText>
@@ -42,45 +36,42 @@ const BulletedList = (items: string[]) => {
 
 const ResumeExperiencesSection = () => {
   return (
-    <GridMainContainer>
+    <Grid container sx={{ pt: 2 }}>
       {experiences.map((experience) => {
         return (
           <>
-            <GridRow>
-              <ResumeLeftGridBody>{experience.location}</ResumeLeftGridBody>
-              <ResumeCompanyHeading>
-                {experience.organization}
-              </ResumeCompanyHeading>
-            </GridRow>
+            <Grid item xs={12} md={8} spacing={0}>
+              <Typography variant='h4'>{experience.organization}</Typography>
+            </Grid>
             {experience.roles.map((role) => {
               return (
-                <>
-                  <GridRow>
-                    <ResumeLeftGridBody>
+                <Grid container item xs={12} sx={{ pb: 2 }}>
+                  <Grid item xs={12}>
+                    <Typography variant='h6' align='left' fontStyle='italic'>
+                      {role.title}
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={12}>
+                    <Typography variant='body1'>
                       {format(role.startDate, 'MMMM yyyy')} -{' '}
                       {role.endDate
                         ? format(role.endDate, 'MMMM yyyy')
                         : 'Present'}
-                    </ResumeLeftGridBody>
-                    <ResumeRightGridBody>
-                      <em>{role.title}</em>
-                    </ResumeRightGridBody>
-                  </GridRow>
-                  <GridRow>
-                    <ResumeLeftGridBody>
-                      {ToolsList(role.toolsAndSkills)}
-                    </ResumeLeftGridBody>
-                    <ResumeRightGridBody>
-                      {BulletedList(role.descriptionBullets)}
-                    </ResumeRightGridBody>
-                  </GridRow>
-                </>
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={9}>
+                    {ToolsList(role.toolsAndSkills)}
+                  </Grid>
+                  <Grid item xs={9}>
+                    {BulletedList(role.descriptionBullets)}
+                  </Grid>
+                </Grid>
               );
             })}
           </>
         );
       })}
-    </GridMainContainer>
+    </Grid>
   );
 };
 

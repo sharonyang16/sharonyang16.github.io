@@ -17,7 +17,7 @@ export const links: HeaderLink[] = [
     url: '/design',
   },
   {
-    name: 'experiences',
-    url: '/experiences',
+    name: 'experience',
+    url: '/experience',
   },
 ];
