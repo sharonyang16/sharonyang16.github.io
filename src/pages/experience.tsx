@@ -2,8 +2,8 @@ import * as React from 'react';
 import { Button } from '@mui/material';
 import { Download } from '@mui/icons-material';
 import PageHeading from '../components/PageHeading';
-import ResumeExperiencesSection from '../components/ResumePage/ResumeExperiences';
-import { RESUME_GOOGLE_DRIVE_ID } from '../data/Pages/ResumePageData';
+import ExperiencesSection from '../components/ExperiencesPage/Experiences';
+import { RESUME_GOOGLE_DRIVE_ID } from '../data/Experiences/ExperiencesData';
 
 const ExperiencePage = () => {
   return (
@@ -22,7 +22,7 @@ const ExperiencePage = () => {
         }
         divider={true}
       />
-      <ResumeExperiencesSection />
+      <ExperiencesSection />
     </>
   );
 };

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { List, ListItemText, Typography, Grid } from '@mui/material';
 import { format } from 'date-fns';
-import { experiences } from '../../data/Resume/ResumeData';
+import { experiences } from '../../data/Experiences/ExperiencesData';
 
 const ToolsList = (items: string[]) => {
   return (
@@ -34,7 +34,7 @@ const BulletedList = (items: string[]) => {
   );
 };
 
-const ResumeExperiencesSection = () => {
+const ExperiencesSection = () => {
   return (
     <Grid container sx={{ pt: 2 }}>
       {experiences.map((experience) => {
@@ -75,4 +75,4 @@ const ResumeExperiencesSection = () => {
   );
 };
 
-export default ResumeExperiencesSection;
+export default ExperiencesSection;

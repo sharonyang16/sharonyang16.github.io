@@ -1,3 +1,5 @@
+export const RESUME_GOOGLE_DRIVE_ID = '1AVbzD-4wveiw7NyC0Vo0dk79HmHFgHfI';
+
 /**
  * Education Data
  */
