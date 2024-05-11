@@ -15,7 +15,7 @@ import { ProgrammingProjectInformation } from '../../data/ProgrammingProjects/Pr
 const ProjectCard = (project: ProgrammingProjectInformation) => {
   const theme = useTheme();
 
-  // left side
+  // left side on larger view, top on smaller view
   const ProjectImage = (project: ProgrammingProjectInformation) => {
     return (
       <Grid item xs={12} md={4}>
@@ -41,7 +41,7 @@ const ProjectCard = (project: ProgrammingProjectInformation) => {
     );
   };
 
-  // right side
+  // right side on larger view, bottom on smaller view
   const ProjectDescription = (project: ProgrammingProjectInformation) => {
     /**
      * date is either...
