@@ -2,14 +2,14 @@ import * as React from 'react';
 import { Button } from '@mui/material';
 import { Download } from '@mui/icons-material';
 import PageHeading from '../components/PageHeading';
-import ResumeExperiencesSection from '../components/ResumePage/ResumeExperiences';
-import { RESUME_GOOGLE_DRIVE_ID } from '../data/Pages/ResumePageData';
+import ExperiencesSection from '../components/ExperiencesPage/Experiences';
+import { RESUME_GOOGLE_DRIVE_ID } from '../data/Experiences/ExperiencesData';
 
 const ExperiencePage = () => {
   return (
     <>
       <PageHeading
-        title='Experiences'
+        title='Experience'
         rightComponent={
           <Button
             href={`https://drive.google.com/uc?export=download&id=${RESUME_GOOGLE_DRIVE_ID}`}
@@ -22,7 +22,7 @@ const ExperiencePage = () => {
         }
         divider={true}
       />
-      <ResumeExperiencesSection />
+      <ExperiencesSection />
     </>
   );
 };

@@ -11,19 +11,17 @@ import {
 import { format } from 'date-fns';
 import { GitHub, Web } from '@mui/icons-material';
 import { ProgrammingProjectInformation } from '../../data/ProgrammingProjects/ProjectsData';
-import { GridRow } from '../Layout/GridFormatting';
 
 const ProjectCard = (project: ProgrammingProjectInformation) => {
   const theme = useTheme();
 
-  // left side
+  // left side on larger view, top on smaller view
   const ProjectImage = (project: ProgrammingProjectInformation) => {
     return (
-      <Grid item xs={4}>
+      <Grid item xs={12} md={4}>
         <Box
           sx={{
-            height: '100%',
-            marginBottom: 2,
+            minHeight: { xs: '15rem', md: '100%' },
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
@@ -43,7 +41,7 @@ const ProjectCard = (project: ProgrammingProjectInformation) => {
     );
   };
 
-  // right side
+  // right side on larger view, bottom on smaller view
   const ProjectDescription = (project: ProgrammingProjectInformation) => {
     /**
      * date is either...
@@ -69,12 +67,12 @@ const ProjectCard = (project: ProgrammingProjectInformation) => {
     return (
       <Grid
         item
-        xs={8}
+        xs={12}
+        md={8}
         sx={{
-          height: '100%',
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'space-between',
+          gap: 2,
         }}
       >
         <Box>
@@ -141,9 +139,9 @@ const ProjectCard = (project: ProgrammingProjectInformation) => {
     );
   };
   return (
-    <GridRow>
+    <Grid container item spacing={{ xs: 2, md: 8 }}>
       {ProjectImage(project)} {ProjectDescription(project)}
-    </GridRow>
+    </Grid>
   );
 };
 

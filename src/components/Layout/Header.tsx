@@ -10,7 +10,8 @@ const Header = () => {
       <Grid container spacing={2}>
         <Grid
           item
-          xs={3}
+          xs={6}
+          md={3}
           sx={{
             display: 'flex',
             justifyContent: 'center',
@@ -25,7 +26,8 @@ const Header = () => {
         </Grid>
         <Grid
           item
-          xs={9}
+          xs={6}
+          md={9}
           sx={{
             display: 'flex',
             justifyContent: 'flex-end',
