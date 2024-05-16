@@ -9,5 +9,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-material-ui`,
+    {
+      resolve: `gatsby-plugin-fix-fouc`,
+      options: {
+        timeout: 2000,
+      },
+    },
   ],
 };
