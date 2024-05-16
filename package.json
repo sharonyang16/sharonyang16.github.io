@@ -19,6 +19,7 @@
     "date-fns": "^3.6.0",
     "framer-motion": "^11.0.20",
     "gatsby": "latest",
+    "gatsby-plugin-fix-fouc": "^1.0.5",
     "gatsby-plugin-material-ui": "^4.0.2",
     "gatsby-plugin-react-helmet": "latest",
     "gatsby-plugin-react-svg": "^3.3.0",
