@@ -14,7 +14,8 @@
     "position": "Software Product Lead",
     "start": "2023-12-01",
     "end": "2024-12-31",
-    "description": "Lead teams of product designers and managers to develop new features for internal project management and data visualization dashboards, working closely with users to create high-fidelity wireframes."
+    "description": "Lead teams of product designers and managers to develop new features for internal project management and data visualization dashboards, working closely with users to create high-fidelity wireframes.",
+    "technologies": ["Figma", "Wireframing", "User Research"]
   },
   {
     "id": 2,
