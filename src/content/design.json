@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "title": "Oven Buddy",
+    "description": "Uber inspired smart oven app. Designed for Northeastern University's ARTG2400: Interaction Design Principles.",
+    "technologies": ["Figma", "User Research"]
+  },
+  {
+    "id": 1,
+    "title": "Apple Maps Explore",
+    "description": "A new apple maps feature focused on exploring new places and making navigation an adventure.  Designed for Northeastern University's ARTG2400: Interaction Design Principles.",
+    "technologies": ["Figma", "User Research"]
+  },
+  {
+    "id": 2,
+    "title": "NUSkillz",
+    "description": "Social media app for developing new skills, focusing on connecting users with like-minded peers. Designed for Northeastern University's IS4300: Human Computer Interaction.",
+    "technologies": ["Figma", "User Research"]
+  },
+  {
+    "id": 3,
+    "title": "FinishLine Guest Mode/Mobile",
+    "description": "Focused on transforming existing project managmenet dashboard UI to be more useful for passing viewers and more responsive on smaller screens.",
+    "technologies": ["Figma", "User Research"]
+  },
+  {
+    "id": 4,
+    "title": "FinishLine CAD File Review System",
+    "description": "",
+    "technologies": ["Figma", "User Research"]
+  },
+  {
+    "id": 5,
+    "title": "FinishLine Home Page Revamp",
+    "description": "",
+    "technologies": ["Figma", "User Research"]
+  },
+  {
+    "id": 6,
+    "title": "Argos Dashboard Revamp",
+    "description": "",
+    "technologies": ["Figma", "User Research"]
+  }
+]
