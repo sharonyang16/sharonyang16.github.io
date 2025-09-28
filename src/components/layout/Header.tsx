@@ -3,7 +3,7 @@ import Typography from "@/components/base/Typography";
 const Header = () => {
   return (
     <header className="py-8 flex justify-between">
-      <Typography variant="title">Sharon Yang</Typography>
+      <Typography>Sharon Yang</Typography>
       <nav>
         <Typography>experience</Typography>
         <Typography>code</Typography>

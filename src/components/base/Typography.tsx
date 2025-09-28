@@ -4,15 +4,18 @@ import { cn } from "./utils";
 
 const typographyVariants = cva("", {
   variants: {
-    variant: {
-      title: "text-[44px] leading-[52px] font-bold",
-      header: "text-[28px] leading-[36px] font-bold",
-      label: "text-base leading-[1.25] font-bold",
-      body: "text-base",
+    intent: {
+      heading: "font-semibold text-[64px] leading-[1.875]",
+      subheadding1: "font-semibold text-[32px] leading-[1.25]",
+      subheadding2: "font-semibold text-2xl leading-[28px]",
+      label1: "font-medium text-lg leading-[1.25]",
+      label2: "font-medium text-base leading-[1.25]",
+      paragraph1: "font-normal text-lg leading-[1.25]",
+      paragraph2: "font-normal text-base leading-[1.25]",
     },
   },
   defaultVariants: {
-    variant: "body",
+    intent: "paragraph1",
   },
 });
 
@@ -23,11 +26,11 @@ export interface TypographyProps
 }
 
 const Typography = React.forwardRef<HTMLElement, TypographyProps>(
-  ({ variant, className, as, ...props }, ref) => {
+  ({ intent, className, as, ...props }, ref) => {
     const Component = as || "span";
 
     const componentProps = {
-      className: cn(typographyVariants({ variant, className })),
+      className: cn(typographyVariants({ intent, className })),
       ...props,
       ref,
     };
