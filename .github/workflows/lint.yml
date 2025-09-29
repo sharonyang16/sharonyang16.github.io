@@ -1,4 +1,4 @@
-name: Lint
+name: Lint + Prettier
 
 on:
   push:
@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   lint:
-    name: Linting Check
+    name: Linting and Formatting Check
     runs-on: ubuntu-latest
 
     steps:
@@ -32,9 +32,6 @@ jobs:
 
       - name: Lint
         run: npm run lint
-      
-      - name: Format Check
+
+      - name: Format
         run: npm run format:check
-
-
-      

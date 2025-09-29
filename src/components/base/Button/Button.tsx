@@ -14,10 +14,6 @@ const buttonVariants = cva("p-2 rounded-lg cursor-pointer", {
   defaultVariants: {
     variant: "primary",
   },
-
-
-
-  
 });
 
 export interface ButtonProps
