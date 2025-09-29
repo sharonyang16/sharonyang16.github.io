@@ -5,7 +5,7 @@ import Experiences from "@/components/Experiences";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-3 gap-x-8 gap-y-12">
+    <div className="grid grid-cols-3 gap-x-8 gap-y-12 py-16">
       <div className="col-span-2">
         <Hero {...heroData} />
       </div>
