@@ -1,4 +1,4 @@
-export type Experience = {
+export type ExperienceCardProps = {
   id: number;
   company: string;
   position: string;
@@ -8,7 +8,12 @@ export type Experience = {
   technologies: string[];
 };
 
-export type CodeProject = {
+export type ExperiencesProps = {
+  resumeDownloadUrl: string;
+  experiences: ExperienceCardProps[];
+};
+
+export type CodeProjectCardProps = {
   id: number;
   title: string;
   url: string;
@@ -16,7 +21,7 @@ export type CodeProject = {
   technologies: string[];
 };
 
-export type DesignProject = {
+export type DesignProjectCardProps = {
   id: number;
   title: string;
   description: string;
