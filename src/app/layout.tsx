@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${publicSans.variable} antialiased m-auto  min-h-full flex flex-col max-w-[1184px] px-10`}
+        className={`${publicSans.variable} antialiased m-auto  min-h-full flex flex-col max-w-[1184px] px-10 bg-white text-black dark:bg-black dark:text-white`}
       >
         <Header />
         {children}

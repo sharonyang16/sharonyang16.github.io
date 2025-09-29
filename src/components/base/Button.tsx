@@ -8,7 +8,7 @@ const buttonVariants = cva("p-2 rounded-lg cursor-pointer", {
       primary:
         "bg-black text-white hover:bg-gray-800 active:bg-gray-800 focus:bg-gray-800",
       secondary:
-        "border-1 border-black dark:border-white hover:bg-gray-100 active:bg-gray-100 focus:bg-gray-100",
+        "border-1 border-black dark:border-white hover:bg-gray-100 active:bg-gray-100 focus:bg-gray-100 dark:hover:bg-gray-800 dark:active:bg-gray-800 dark:focus:bg-gray-800",
     },
   },
   defaultVariants: {
