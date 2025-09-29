@@ -5,7 +5,7 @@ import { cn } from "./utils";
 const typographyVariants = cva("", {
   variants: {
     intent: {
-      heading: "font-semibold text-[64px] leading-[1.875]",
+      heading: "font-semibold text-[64px] leading-[1.25]",
       subheadding1: "font-semibold text-[32px] leading-[1.25]",
       subheadding2: "font-semibold text-2xl leading-[28px]",
       label1: "font-medium text-lg leading-[1.25]",

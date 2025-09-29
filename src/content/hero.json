@@ -1,0 +1,19 @@
+{
+  "name": "Sharon Yang",
+  "role": "Software Engineer",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/sharonyang16"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sharon-y/"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:yang.shar@northeastern.edu"
+    }
+  ],
+  "summary": "I’m an undergraduate Computer Science & Design student at Northeastern University with an interest in full-stack web development and UI/UX design. I aim to create and build accessible and user-friendly applications."
+}

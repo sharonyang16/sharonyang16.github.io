@@ -22,3 +22,13 @@ export type DesignProject = {
   description: string;
   technologies: string[];
 };
+
+export type HeroProps = {
+  name: string;
+  role: string;
+  links: {
+    name: string;
+    url: string;
+  }[];
+  summary: string;
+};
