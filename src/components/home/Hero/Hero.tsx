@@ -2,6 +2,7 @@ import { HeroProps } from "@/types/data";
 import Typography from "@/components//base/Typography/Typography";
 import Link from "@/components/base/Link/Link";
 import { linkNameToIcon } from "@/utils/data.utils";
+import { useState } from "react";
 
 const Hero = ({ name, role, links, summary }: HeroProps) => {
   return (
