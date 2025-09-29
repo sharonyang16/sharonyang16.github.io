@@ -5,7 +5,7 @@ import { cn } from "./utils";
 const chipVariants = cva("", {
   variants: {
     variant: {
-      primary: "bg-gray-200 rounded-full w-fit py-1 px-2",
+      primary: "bg-gray-200 dark:bg-gray-800 rounded-full w-fit py-1 px-2",
     },
   },
   defaultVariants: {

@@ -13,8 +13,8 @@ const ProjectCard = ({
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className={`border-1 border-black rounded-lg ${
-        url ? "hover:shadow-xl" : ""
+      className={`border-1 border-black dark:border-white rounded-lg ${
+        url ? "hover:shadow-xl dark:hover:bg-gray-950" : ""
       }`}
     >
       <div className="flex flex-col p-4 gap-2">

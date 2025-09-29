@@ -2,22 +2,19 @@ import React from "react";
 import { VariantProps, cva } from "class-variance-authority";
 import { cn } from "./utils";
 
-const buttonVariants = cva(
-  "p-2 rounded-lg cursor-pointer disabled:cursor-not-allowed disabled:opacity-50",
-  {
-    variants: {
-      variant: {
-        primary:
-          "bg-black text-white enabled:hover:bg-gray-800 enabled:active:bg-gray-800 enabled:focus:bg-gray-800",
-        secondary:
-          "border-1 border-black enabled:hover:bg-gray-100 enabled:active:bg-gray-100 enabled:focus:bg-gray-100",
-      },
+const buttonVariants = cva("p-2 rounded-lg cursor-pointer", {
+  variants: {
+    variant: {
+      primary:
+        "bg-black text-white hover:bg-gray-800 active:bg-gray-800 focus:bg-gray-800",
+      secondary:
+        "border-1 border-black dark:border-white hover:bg-gray-100 active:bg-gray-100 focus:bg-gray-100",
     },
-    defaultVariants: {
-      variant: "primary",
-    },
-  }
-);
+  },
+  defaultVariants: {
+    variant: "primary",
+  },
+});
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
