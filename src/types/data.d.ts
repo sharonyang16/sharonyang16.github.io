@@ -8,6 +8,11 @@ export type ExperienceCardProps = {
   technologies: string[];
 };
 
+export type ExperiencesProps = {
+  resumeDownloadUrl: string;
+  experiences: ExperienceCardProps[];
+};
+
 export type CodeProjectCardProps = {
   id: number;
   title: string;
