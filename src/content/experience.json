@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "company": "Priceline",
+    "position": "Software Engineer Co-op",
+    "start": "2024-07-01",
+    "end": "2024-12-31",
+    "description": "Developed in an Agile frontend team, working closely with designers to deliver responsive UI features, managing deployments, and providing support for an authentication migration. ",
+    "technologies": ["React", "Next.js", "TypeScript", "GraphQL", "Jest"]
+  },
+  {
+    "id": 1,
+    "company": "Northeastern Electric Racing",
+    "position": "Software Product Lead",
+    "start": "2023-12-01",
+    "end": "2024-12-31",
+    "description": "Lead teams of product designers and managers to develop new features for internal project management and data visualization dashboards, working closely with users to create high-fidelity wireframes.",
+    "technologies": ["Figma", "User Research"]
+  },
+  {
+    "id": 2,
+    "company": "Northeastern Electric Racing",
+    "position": "Software Developer",
+    "start": "2023-09-01",
+    "end": "2024-12-31",
+    "description": "Contributed to open-source full-stack internal project management dashboard.",
+    "technologies": ["React", "TypeScript", "Express.js", "Prisma", "Jest"]
+  },
+  {
+    "id": 3,
+    "company": "CAMD at Northeastern University",
+    "position": "IT/Audio Visual Co-op",
+    "start": "2023-07-01",
+    "end": "2023-12-31",
+    "description": "Provided technical support for students, faculty, and staff regarding software and hardware and maintained departmental equipment.",
+    "technologies": ["ServiceNow", "Troubleshooting"]
+  }
+]
