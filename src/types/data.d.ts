@@ -13,17 +13,10 @@ export type ExperiencesProps = {
   experiences: ExperienceCardProps[];
 };
 
-export type CodeProjectCardProps = {
+export type ProjectCardProps = {
   id: number;
   title: string;
-  url: string;
-  description: string;
-  technologies: string[];
-};
-
-export type DesignProjectCardProps = {
-  id: number;
-  title: string;
+  url?: string;
   description: string;
   technologies: string[];
 };
