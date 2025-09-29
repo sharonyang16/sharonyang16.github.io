@@ -10,7 +10,7 @@ const buttonVariants = cva(
         primary:
           "bg-black text-white enabled:hover:bg-gray-800 enabled:active:bg-gray-800 enabled:focus:bg-gray-800 hover:bg-gray-800",
         secondary:
-          "border-1 border-black enabled:hover:bg-gray-300 enabled:active:bg-gray-100 enabled:focus:bg-gray-100 hover:bg-gray-100",
+          "border-1 border-black enabled:hover:bg-gray-100 enabled:active:bg-gray-100 enabled:focus:bg-gray-100 hover:bg-gray-100",
       },
     },
     defaultVariants: {
