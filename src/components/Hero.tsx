@@ -1,6 +1,6 @@
 import { HeroProps } from "@/types/data";
-import Typography from "./base/Typography";
-import Link from "@/components/base/Link";
+import Typography from "@/components//base/Typography/Typography";
+import Link from "@/components/base/Link/Link";
 import { linkNameToIcon } from "@/utils/data.utils";
 
 const Hero = ({ name, role, links, summary }: HeroProps) => {

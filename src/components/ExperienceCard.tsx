@@ -1,6 +1,6 @@
 import { ExperienceCardProps } from "@/types/data";
-import Typography from "./base/Typography";
-import Chip from "./base/Chip";
+import Typography from "@/components/base/Typography/Typography";
+import Chip from "@/components/base/Chip/Chip";
 import { format } from "date-fns";
 
 const ExperienceCard = ({

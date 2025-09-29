@@ -1,5 +1,5 @@
 "use client";
-import Typography from "@/components/base/Typography";
+import Typography from "@/components/base/Typography/Typography";
 import headerLinks from "@/content/headerLinks.json";
 import Logo from "@/assets/Logo";
 import ThemeButton from "./ThemeButton";
