@@ -29,7 +29,7 @@ const Button = React.forwardRef<HTMLElement, ButtonProps>(
     };
 
     return React.createElement("button", componentProps);
-  }
+  },
 );
 
 Button.displayName = "Button";

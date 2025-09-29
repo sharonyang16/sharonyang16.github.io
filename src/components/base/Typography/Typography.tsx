@@ -36,7 +36,7 @@ const Typography = React.forwardRef<HTMLElement, TypographyProps>(
     };
 
     return React.createElement(Component, componentProps);
-  }
+  },
 );
 
 Typography.displayName = "Typography";

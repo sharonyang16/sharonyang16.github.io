@@ -26,7 +26,7 @@ const Chip = React.forwardRef<HTMLElement, ChipProps>(
     };
 
     return React.createElement("div", componentProps);
-  }
+  },
 );
 
 Chip.displayName = "Chip";
