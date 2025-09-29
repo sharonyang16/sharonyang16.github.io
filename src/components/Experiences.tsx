@@ -1,6 +1,6 @@
 "use client";
 import { MdDownloading } from "react-icons/md";
-import Button from "./base/Button";
+import Link from "./base/Link";
 import Typography from "./base/Typography";
 import ExperienceCard from "./ExperienceCard";
 import { ExperiencesProps } from "@/types/data";
@@ -10,10 +10,9 @@ const Experiences = ({ resumeDownloadUrl, experiences }: ExperiencesProps) => {
     <>
       <div id="experience" className="flex flex-col gap-4">
         <Typography intent="subheadding1">Experience</Typography>
-        <Button
-          variant="secondary"
+        <Link
+          variant="buttonSecondary"
           className="w-fit"
-          as="a"
           href={resumeDownloadUrl}
           rel="noopener noreferrer"
         >
@@ -21,7 +20,7 @@ const Experiences = ({ resumeDownloadUrl, experiences }: ExperiencesProps) => {
             <MdDownloading className="text-xl" />
             <Typography intent="label1">Resume</Typography>
           </div>
-        </Button>
+        </Link>
       </div>
       <div className="flex flex-col gap-8 col-span-2 ">
         {experiences.map((experience) => (
