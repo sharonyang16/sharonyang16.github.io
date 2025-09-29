@@ -8,7 +8,7 @@ import designData from "@/content/design.json";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-3 gap-x-8 gap-y-12 py-16">
+    <div className="flex flex-col lg:grid lg:grid-cols-3 gap-x-8 gap-y-12 py-16">
       <div className="col-span-2">
         <Hero {...heroData} />
       </div>
