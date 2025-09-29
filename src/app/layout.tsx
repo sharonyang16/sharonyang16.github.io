@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Public_Sans } from "next/font/google";
-import Header from "@/components/layout/Header";
+import Header from "@/components/layout/Header/Header";
 import "@/styles/globals.css";
 
 const publicSans = Public_Sans({

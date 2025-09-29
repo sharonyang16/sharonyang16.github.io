@@ -1,7 +1,7 @@
 "use client";
 import { MdDownloading } from "react-icons/md";
-import Link from "./base/Link";
-import Typography from "./base/Typography";
+import Link from "@/components/base/Link/Link";
+import Typography from "@/components/base/Typography/Typography";
 import ExperienceCard from "./ExperienceCard";
 import { ExperiencesProps } from "@/types/data";
 
