@@ -14,12 +14,15 @@ const ExperienceCard = ({
   return (
     <div className="flex flex-col gap-2">
       <Typography intent="subheadding2">{`${position} @ ${company}`}</Typography>
-      <Typography intent="label2" className="text-gray-600">{`${format(start, "MMM yyyy").toUpperCase()} - ${format(end, "MMM yyyy").toUpperCase()}`}</Typography>
+      <Typography intent="label2" className="text-gray-600">{`${format(
+        start,
+        "MMM yyyy"
+      ).toUpperCase()} - ${format(end, "MMM yyyy").toUpperCase()}`}</Typography>
       <Typography intent="paragraph2">{description}</Typography>
       <div className="flex flex-wrap gap-2">
-        {technologies.map((tech) => (
-          <Chip key={tech}>
-            <Typography intent="label2">{tech}</Typography>
+        {technologies.map((name) => (
+          <Chip key={name}>
+            <Typography intent="label2">{name}</Typography>
           </Chip>
         ))}
       </div>

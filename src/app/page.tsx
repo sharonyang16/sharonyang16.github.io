@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
+import Experiences from "@/components/Experiences";
 import heroData from "@/content/hero.json";
 import experienceData from "@/content/experience.json";
-import Experiences from "@/components/Experiences";
 
 export default function Home() {
   return (
