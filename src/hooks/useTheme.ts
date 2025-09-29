@@ -10,7 +10,7 @@ export const useTheme = () => {
         (!("theme" in localStorage) &&
           window.matchMedia("(prefers-color-scheme: dark)").matches)
         ? "dark"
-        : "light"
+        : "light",
     );
   }, []);
 
@@ -19,7 +19,7 @@ export const useTheme = () => {
       "dark",
       localStorage.theme === "dark" ||
         (!("theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
+          window.matchMedia("(prefers-color-scheme: dark)").matches),
     );
   }, [theme]);
 

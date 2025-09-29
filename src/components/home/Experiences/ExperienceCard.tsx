@@ -19,7 +19,7 @@ const ExperienceCard = ({
         className="text-gray-600 dark:text-gray-400"
       >{`${format(start, "MMM yyyy").toUpperCase()} - ${format(
         end,
-        "MMM yyyy"
+        "MMM yyyy",
       ).toUpperCase()}`}</Typography>
       <Typography intent="paragraph2">{description}</Typography>
       <div className="flex flex-wrap gap-2">

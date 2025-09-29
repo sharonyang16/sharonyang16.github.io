@@ -29,7 +29,7 @@ const Link = React.forwardRef<HTMLElement, LinkProps>(
     };
 
     return React.createElement("a", componentProps);
-  }
+  },
 );
 
 Link.displayName = "Link";

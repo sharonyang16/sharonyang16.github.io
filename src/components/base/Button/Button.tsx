@@ -14,6 +14,10 @@ const buttonVariants = cva("p-2 rounded-lg cursor-pointer", {
   defaultVariants: {
     variant: "primary",
   },
+
+
+
+  
 });
 
 export interface ButtonProps
@@ -29,7 +33,7 @@ const Button = React.forwardRef<HTMLElement, ButtonProps>(
     };
 
     return React.createElement("button", componentProps);
-  }
+  },
 );
 
 Button.displayName = "Button";
