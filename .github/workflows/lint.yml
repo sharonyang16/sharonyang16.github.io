@@ -1,4 +1,4 @@
-name: Lint + Prettier
+name: Lint + Prettier + Build Check
 
 on:
   pull_request:
@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   lint:
-    name: Linting and Formatting Check
+    name: Lint, Format, and Build Checks
     runs-on: ubuntu-latest
 
     steps:
@@ -35,3 +35,6 @@ jobs:
 
       - name: Format
         run: npm run format:check
+
+      - name: Build
+        run: npm run build
