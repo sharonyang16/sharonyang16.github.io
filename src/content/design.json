@@ -8,7 +8,7 @@
   {
     "id": 1,
     "title": "Apple Maps Explore",
-    "description": "A new apple maps feature focused on exploring new places and making navigation an adventure.  Designed for Northeastern University's ARTG2400: Interaction Design Principles.",
+    "description": "A new apple maps feature focused on exploring new places and making navigation an adventure. Designed for Northeastern University's ARTG2400: Interaction Design Principles.",
     "technologies": ["Figma", "User Research"]
   },
   {
@@ -26,19 +26,19 @@
   {
     "id": 4,
     "title": "FinishLine CAD File Review System",
-    "description": "",
+    "description": "New feature to help engineers review each others CAD files easier and within the interal project management dashboard.",
     "technologies": ["Figma", "User Research"]
   },
   {
     "id": 5,
     "title": "FinishLine Home Page Revamp",
-    "description": "",
+    "description": "Redesigned the home page of the internal project management dashboard to be more useful for members of different roles.",
     "technologies": ["Figma", "User Research"]
   },
   {
     "id": 6,
     "title": "Argos Dashboard Revamp",
-    "description": "",
+    "description": "Redesigned the home page of the car data visualization dashboard to have a more interesting and modular design.",
     "technologies": ["Figma", "User Research"]
   }
 ]
