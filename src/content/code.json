@@ -2,7 +2,7 @@
   {
     "id": 0,
     "title": "Personal Website",
-    "url": "https://sharonyang16.github.io/",
+    "url": "https://github.com/sharonyang16/sharonyang16.github.io",
     "description": "This website!",
     "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS"]
   },
@@ -16,12 +16,14 @@
   {
     "id": 2,
     "title": "Timbers' Nap",
+    "url": "https://play.unity.com/mg/other/webgl-builds-349008",
     "description": "3D-platformer with 3 engaging levels. Built for Northeastern University's CS3540: Game Programming.",
     "technologies": ["Unity3D", "C#"]
   },
   {
     "id": 3,
     "title": "Vet Finder",
+    "url": "https://github.com/chanmioh/team-animal",
     "description": "A user-friendly vet finder app. Built for and awarded 1st place at Chewy's 2023 Diversity Hackathon.",
     "technologies": ["React", "Next.js", "JavaScript", "Tailwind CSS"]
   },
@@ -35,6 +37,7 @@
   {
     "id": 5,
     "title": "Image Processor",
+    "url": "https://github.com/sharonyang16/image-processing",
     "description": "Image processing and manipulation app with various filters. Built for Northeastern University's CS3500: Object-Oriented Design.",
     "technologies": ["Java", "JUnit", "Java Swing"]
   }
