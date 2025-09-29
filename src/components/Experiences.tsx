@@ -8,7 +8,7 @@ import { ExperiencesProps } from "@/types/data";
 const Experiences = ({ resumeDownloadUrl, experiences }: ExperiencesProps) => {
   return (
     <>
-      <div className="flex flex-col gap-4">
+      <div id="experience" className="flex flex-col gap-4">
         <Typography intent="subheadding1">Experience</Typography>
         <Button
           variant="secondary"
