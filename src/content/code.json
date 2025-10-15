@@ -1,5 +1,18 @@
 [
   {
+    "id": 6,
+    "title": "Typing Game",
+    "url": "https://github.com/sharonyang16/typing-game",
+    "description": "A full-stack typing game.",
+    "technologies": [
+      "Next.js",
+      "Express.js",
+      "TypeORM",
+      "PostgresSQL",
+      "Tailwind CSS"
+    ]
+  },
+  {
     "id": 0,
     "title": "Personal Website",
     "url": "https://github.com/sharonyang16/sharonyang16.github.io",
