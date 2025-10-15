@@ -14,18 +14,11 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Rosy Photobooth",
     "url": "https://github.com/sharonyang16/rosy-photo-booth",
-    "description": "A full-stack typing game.",
-    "technologies": [
-      "Next.js",
-      "TypeScript",
-      "Express.js",
-      "TypeORM",
-      "PostgresSQL",
-      "Tailwind CSS"
-    ]
+    "description": "A Korean-style Photo Booth app.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"]
   },
   {
     "id": 0,
@@ -59,7 +52,7 @@
     "id": 4,
     "title": "FinishLine",
     "url": "https://finishlinebyner.com",
-    "description": "Internal project management dashboard for Northeastern Electric Racing",
+    "description": "Internal project management dashboard for Northeastern Electric Racing.",
     "technologies": ["React", "TypeScript", "Express.js", "Prisma", "Jest"]
   },
   {
