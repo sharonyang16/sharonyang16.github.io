@@ -6,6 +6,21 @@
     "description": "A full-stack typing game.",
     "technologies": [
       "Next.js",
+      "TypeScript",
+      "Express.js",
+      "TypeORM",
+      "PostgresSQL",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Rosy Photobooth",
+    "url": "https://github.com/sharonyang16/rosy-photo-booth",
+    "description": "A full-stack typing game.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
       "Express.js",
       "TypeORM",
       "PostgresSQL",
@@ -17,14 +32,14 @@
     "title": "Personal Website",
     "url": "https://github.com/sharonyang16/sharonyang16.github.io",
     "description": "This website!",
-    "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"]
   },
   {
     "id": 1,
     "title": "Mock Stack Overflow App",
     "url": "https://cs4530-s25-404.onrender.com/",
     "description": "A full-stack Stack Overflow clone with added Single Sign-On (SSO) authentication and natural language searching features. Built for Northeastern University's CS4530: Fundamentals of Software Engineering.",
-    "technologies": ["React", "TypeScript", "MongoDB", "Jest"]
+    "technologies": ["React", "TypeScript", "Express.js", "MongoDB", "Jest"]
   },
   {
     "id": 2,
@@ -38,7 +53,7 @@
     "title": "Vet Finder",
     "url": "https://github.com/chanmioh/team-animal",
     "description": "A user-friendly vet finder app. Built for and awarded 1st place at Chewy's 2023 Diversity Hackathon.",
-    "technologies": ["React", "Next.js", "JavaScript", "Tailwind CSS"]
+    "technologies": ["Next.js", "JavaScript", "Tailwind CSS"]
   },
   {
     "id": 4,
