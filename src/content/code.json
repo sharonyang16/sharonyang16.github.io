@@ -9,7 +9,6 @@
       "TypeScript",
       "FastAPI",
       "Python",
-      "Expo",
       "Supabase"
     ]
   },
@@ -23,7 +22,6 @@
       "TypeScript",
       "Express.js",
       "TypeORM",
-      "PostgresSQL",
       "Tailwind CSS"
     ]
   },
