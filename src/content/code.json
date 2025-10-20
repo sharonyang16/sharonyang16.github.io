@@ -1,5 +1,19 @@
 [
   {
+    "id": 8,
+    "title": "AI Task Tracker",
+    "url": "https://github.com/sharonyang16/ai-task-trackere",
+    "description": "Task tracking app with AI recommendations.",
+    "technologies": [
+      "React Native",
+      "TypeScript",
+      "FastAPI",
+      "Python",
+      "Expo",
+      "Supabase"
+    ]
+  },
+  {
     "id": 6,
     "title": "Typing Game",
     "url": "https://github.com/sharonyang16/typing-game",
