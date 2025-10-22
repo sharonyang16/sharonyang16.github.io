@@ -2,7 +2,7 @@
   {
     "id": 8,
     "title": "AI Task Tracker",
-    "url": "https://github.com/sharonyang16/ai-task-trackere",
+    "url": "https://github.com/sharonyang16/ai-task-tracker",
     "description": "Task tracking app with AI recommendations.",
     "technologies": [
       "React Native",
@@ -22,7 +22,8 @@
       "TypeScript",
       "Express.js",
       "TypeORM",
-      "Tailwind CSS"
+      "Tailwind CSS",
+      "Firebase"
     ]
   },
   {
