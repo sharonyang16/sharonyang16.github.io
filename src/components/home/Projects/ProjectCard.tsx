@@ -20,7 +20,7 @@ const ProjectCard = ({
       }`}
     >
       <div className="flex flex-col p-4 gap-2 h-full">
-        <div className="flex justify-center items-center w-full h-fit flex-grow-1 relative">
+        <div className="flex justify-center items-center w-full h-fit relative">
           {thumbnail && (
             <Image
               src={thumbnail}

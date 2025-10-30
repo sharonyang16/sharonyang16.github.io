@@ -36,6 +36,7 @@
   {
     "id": 0,
     "title": "Personal Website",
+    "thumbnail": "/assets/code/personal-website-mockup.png",
     "url": "https://github.com/sharonyang16/sharonyang16.github.io",
     "description": "This website!",
     "technologies": ["Next.js", "TypeScript", "Tailwind CSS"]
@@ -43,6 +44,7 @@
   {
     "id": 1,
     "title": "Mock Stack Overflow App",
+    "thumbnail": "/assets/code/fake-stack-overflow-mockup.png",
     "url": "https://cs4530-s25-404.onrender.com/",
     "description": "A full-stack Stack Overflow clone with added Single Sign-On (SSO) authentication and natural language searching features. Built for Northeastern University's CS4530: Fundamentals of Software Engineering.",
     "technologies": ["React", "TypeScript", "Express.js", "MongoDB", "Jest"]
