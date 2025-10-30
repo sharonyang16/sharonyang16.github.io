@@ -3,20 +3,20 @@
     "id": 0,
     "title": "Oven Buddy",
     "thumbnail": "/assets/design/oven-buddy-mockups.png",
-    "description": "Uber inspired smart oven app. Designed for Northeastern University's ARTG2400: Interaction Design Principles.",
+    "description": "Uber inspired smart oven app.",
     "technologies": ["Mobile", "Figma", "User Research"]
   },
   {
     "id": 1,
     "title": "Apple Maps Explore",
     "thumbnail": "/assets/design/apple-maps-adventure-mockups.png",
-    "description": "A new apple maps feature focused on exploring new places and making navigation an adventure. Designed for Northeastern University's ARTG2400: Interaction Design Principles.",
+    "description": "A new apple maps feature focused on exploring new places and making navigation an adventure.",
     "technologies": ["Mobile", "Figma", "User Research"]
   },
   {
     "id": 2,
     "title": "NUSkillz",
-    "description": "Social media app for developing new skills, focusing on connecting users with like-minded peers. Designed for Northeastern University's IS4300: Human Computer Interaction.",
+    "description": "Social media app for developing new skills, focusing on connecting users with like-minded peers.",
     "technologies": ["Desktop", "Figma", "User Research"]
   },
   {

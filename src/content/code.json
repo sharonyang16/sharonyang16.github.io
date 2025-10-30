@@ -46,14 +46,14 @@
     "title": "Mock Stack Overflow App",
     "thumbnail": "/assets/code/fake-stack-overflow-mockup.png",
     "url": "https://cs4530-s25-404.onrender.com/",
-    "description": "A full-stack Stack Overflow clone with added Single Sign-On (SSO) authentication and natural language searching features. Built for Northeastern University's CS4530: Fundamentals of Software Engineering.",
+    "description": "A full-stack Stack Overflow clone with added Single Sign-On (SSO) authentication and natural language searching features.",
     "technologies": ["React", "TypeScript", "Express.js", "MongoDB", "Jest"]
   },
   {
     "id": 2,
     "title": "Timbers' Nap",
     "url": "https://play.unity.com/mg/other/webgl-builds-349008",
-    "description": "3D-platformer with 3 engaging levels. Built for Northeastern University's CS3540: Game Programming.",
+    "description": "3D-platformer with 3 engaging levels. ",
     "technologies": ["Unity3D", "C#"]
   },
   {
@@ -74,7 +74,7 @@
     "id": 5,
     "title": "Image Processor",
     "url": "https://github.com/sharonyang16/image-processing",
-    "description": "Image processing and manipulation app with various filters. Built for Northeastern University's CS3500: Object-Oriented Design.",
+    "description": "Image processing and manipulation app with various filters.",
     "technologies": ["Java", "JUnit", "Java Swing"]
   }
 ]
