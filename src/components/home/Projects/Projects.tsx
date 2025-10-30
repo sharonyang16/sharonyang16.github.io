@@ -14,7 +14,7 @@ const Projects = ({
       <Typography id={title.toLowerCase()} intent="subheadding1">
         {title}
       </Typography>
-      <div className="flex flex-col gap-8 col-span-2 ">
+      <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 col-span-2 ">
         {projects.map((project) => (
           <ProjectCard key={project.id} {...project} />
         ))}
