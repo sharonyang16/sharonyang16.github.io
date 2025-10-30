@@ -14,6 +14,13 @@
     "technologies": ["Mobile", "Figma", "User Research"]
   },
   {
+    "id": 6,
+    "title": "Argos Dashboard Revamp",
+    "thumbnail": "/assets/design/argos-mockups.png",
+    "description": "Redesigned the home page of the car data visualization dashboard to have a more interesting and modular design.",
+    "technologies": ["Desktop", "Mobile", "Figma", "User Research"]
+  },
+  {
     "id": 2,
     "title": "NUSkillz",
     "description": "Social media app for developing new skills, focusing on connecting users with like-minded peers.",
@@ -31,13 +38,7 @@
     "description": "New feature to help engineers review each others CAD files easier and within the interal project management dashboard.",
     "technologies": ["Desktop", "Figma", "User Research"]
   },
-  {
-    "id": 6,
-    "title": "Argos Dashboard Revamp",
-    "thumbnail": "/assets/design/argos-mockups.png",
-    "description": "Redesigned the home page of the car data visualization dashboard to have a more interesting and modular design.",
-    "technologies": ["Desktop", "Mobile", "Figma", "User Research"]
-  },
+
   {
     "id": 5,
     "title": "FinishLine Home Page Revamp",
