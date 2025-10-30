@@ -2,20 +2,28 @@
   {
     "id": 0,
     "title": "Oven Buddy",
-    "thumbnail": "/assets/oven-buddy-mockup.png",
-    "description": "Uber inspired smart oven app. Designed for Northeastern University's ARTG2400: Interaction Design Principles.",
+    "thumbnail": "/assets/design/oven-buddy-mockups.png",
+    "description": "Uber inspired smart oven app.",
     "technologies": ["Mobile", "Figma", "User Research"]
   },
   {
     "id": 1,
     "title": "Apple Maps Explore",
-    "description": "A new apple maps feature focused on exploring new places and making navigation an adventure. Designed for Northeastern University's ARTG2400: Interaction Design Principles.",
+    "thumbnail": "/assets/design/apple-maps-adventure-mockups.png",
+    "description": "A new apple maps feature focused on exploring new places and making navigation an adventure.",
     "technologies": ["Mobile", "Figma", "User Research"]
+  },
+  {
+    "id": 6,
+    "title": "Argos Dashboard Revamp",
+    "thumbnail": "/assets/design/argos-mockups.png",
+    "description": "Redesigned the home page of the car data visualization dashboard to have a more interesting and modular design.",
+    "technologies": ["Desktop", "Mobile", "Figma", "User Research"]
   },
   {
     "id": 2,
     "title": "NUSkillz",
-    "description": "Social media app for developing new skills, focusing on connecting users with like-minded peers. Designed for Northeastern University's IS4300: Human Computer Interaction.",
+    "description": "Social media app for developing new skills, focusing on connecting users with like-minded peers.",
     "technologies": ["Desktop", "Figma", "User Research"]
   },
   {
@@ -30,12 +38,7 @@
     "description": "New feature to help engineers review each others CAD files easier and within the interal project management dashboard.",
     "technologies": ["Desktop", "Figma", "User Research"]
   },
-  {
-    "id": 6,
-    "title": "Argos Dashboard Revamp",
-    "description": "Redesigned the home page of the car data visualization dashboard to have a more interesting and modular design.",
-    "technologies": ["Desktop", "Mobile", "Figma", "User Research"]
-  },
+
   {
     "id": 5,
     "title": "FinishLine Home Page Revamp",
