@@ -2,6 +2,7 @@
   {
     "id": 0,
     "title": "Oven Buddy",
+    "thumbnail": "/assets/oven-buddy-mockup.png",
     "description": "Uber inspired smart oven app. Designed for Northeastern University's ARTG2400: Interaction Design Principles.",
     "technologies": ["Mobile", "Figma", "User Research"]
   },
