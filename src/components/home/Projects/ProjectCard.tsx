@@ -14,7 +14,7 @@ const ProjectCard = ({
     <div className="flex flex-col gap-2 h-full">
       <div className="flex justify-center items-center w-full h-fit relative">
         <Image
-          src={thumbnail || "/assets/placeholder.png"}
+          src={thumbnail || "/assets/Placeholder.png"}
           alt={`${title} thumbnail`}
           width="1600"
           height="900"
