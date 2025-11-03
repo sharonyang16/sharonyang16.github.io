@@ -64,6 +64,7 @@
     "id": 2,
     "title": "Timbers' Nap",
     "url": "https://play.unity.com/mg/other/webgl-builds-349008",
+    "thumbnail": "/assets/code/timbers-mockup.png",
     "description": "3D-platformer with 3 engaging levels. ",
     "technologies": ["Unity3D", "C#"]
   },
@@ -72,6 +73,7 @@
     "id": 4,
     "title": "FinishLine",
     "url": "https://finishlinebyner.com",
+    "thumbnail": "/assets/code/finishline-mockup.png",
     "description": "Internal project management dashboard for Northeastern Electric Racing.",
     "technologies": ["React", "TypeScript", "Express.js", "Prisma", "Jest"]
   },
@@ -79,6 +81,7 @@
     "id": 5,
     "title": "Image Processor",
     "url": "https://github.com/sharonyang16/image-processing",
+    "thumbnail": "/assets/code/image-mockup.png",
     "description": "Image processing and manipulation app with various filters.",
     "technologies": ["Java", "JUnit", "Java Swing"]
   }
