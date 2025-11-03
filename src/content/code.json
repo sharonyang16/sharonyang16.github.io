@@ -1,13 +1,5 @@
 [
   {
-    "id": 0,
-    "title": "Personal Website",
-    "thumbnail": "/assets/code/personal-website-mockup.png",
-    "url": "https://github.com/sharonyang16/sharonyang16.github.io",
-    "description": "This website!",
-    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"]
-  },
-  {
     "id": 1,
     "title": "Mock Stack Overflow App",
     "thumbnail": "/assets/code/fake-stack-overflow-mockup.png",
@@ -40,6 +32,7 @@
     "id": 6,
     "title": "Typing Game",
     "url": "https://github.com/sharonyang16/typing-game",
+    "thumbnail": "/assets/code/typing-mockup.png",
     "description": "A full-stack typing game.",
     "technologies": [
       "Next.js",
@@ -50,11 +43,19 @@
       "Firebase"
     ]
   },
-
+  {
+    "id": 0,
+    "title": "Personal Website",
+    "thumbnail": "/assets/code/personal-website-mockup.png",
+    "url": "https://github.com/sharonyang16/sharonyang16.github.io",
+    "description": "This website!",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"]
+  },
   {
     "id": 7,
     "title": "Rosy Photobooth",
     "url": "https://github.com/sharonyang16/rosy-photo-booth",
+    "thumbnail": "/assets/code/rosy-mockup.png",
     "description": "A Korean-style Photo Booth app.",
     "technologies": ["Next.js", "TypeScript", "Tailwind CSS"]
   },
