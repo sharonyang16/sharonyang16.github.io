@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="w-full">
       <div className="py-8 flex lg:justify-between justify-center items-center">
-        <Logo className="w-8"/>
+        <Logo className="w-8" />
         <div className="hidden lg:block">
           <div className="flex gap-8 items-center">
             <nav className="flex gap-8">

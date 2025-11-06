@@ -19,7 +19,7 @@
     "id": 8,
     "title": "AI Task Tracker",
     "url": "https://github.com/sharonyang16/ai-task-tracker",
-    "thumbnail":"/assets/code/task-tracker-mockup.png",
+    "thumbnail": "/assets/code/task-tracker-mockup.png",
     "description": "Task tracking app with AI recommendations.",
     "technologies": [
       "React Native",
