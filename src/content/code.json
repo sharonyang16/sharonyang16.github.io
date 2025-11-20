@@ -32,14 +32,14 @@
   {
     "id": 6,
     "title": "Typing Game",
-    "url": "https://github.com/sharonyang16/typing-game",
+    "url": "https://typing-game-navy-nine.vercel.app/",
     "thumbnail": "/assets/code/typing-mockup.png",
     "description": "A full-stack typing game.",
     "technologies": [
       "Next.js",
       "TypeScript",
       "Express.js",
-      "TypeORM",
+      "Prisma",
       "Tailwind CSS",
       "Firebase"
     ]
