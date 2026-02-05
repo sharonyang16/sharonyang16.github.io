@@ -8,7 +8,7 @@ import { ExperiencesProps } from "@/types/data";
 const Experiences = ({ resumeDownloadUrl, experiences }: ExperiencesProps) => {
   return (
     <>
-      <div id="experience" className="flex flex-col gap-4">
+      <div id="experience" className="flex flex-col gap-4 py-8">
         <Typography intent="subheadding1">Experience</Typography>
         <Link
           variant="buttonSecondary"
@@ -22,7 +22,7 @@ const Experiences = ({ resumeDownloadUrl, experiences }: ExperiencesProps) => {
           </div>
         </Link>
       </div>
-      <div className="flex flex-col gap-8 col-span-2 ">
+      <div className="flex flex-col gap-8 col-span-2 py-8">
         {experiences.map((experience) => (
           <ExperienceCard key={experience.id} {...experience} />
         ))}
