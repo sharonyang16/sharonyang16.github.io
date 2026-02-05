@@ -12,14 +12,17 @@ const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <div className="flex flex-col gap-2 h-full">
-      <div className="flex justify-center items-center w-full h-fit relative">
-        <Image
-          src={thumbnail || "/assets/Placeholder.png"}
-          alt={`${title} thumbnail`}
-          width="1600"
-          height="900"
-          className="w-full h-auto"
-        />
+      <div className="flex justify-center items-center w-full aspect-video relative rounded-sm overflow-hidden bg-gray-200 dark:bg-gray-800 ">
+        <div className="relative w-4/5 h-4/5 rounded-2xl">
+          {thumbnail && (
+            <Image
+              src={thumbnail}
+              alt={`${title} thumbnail`}
+              fill
+              className="object-contain"
+            />
+          )}
+        </div>
       </div>
       <a
         href={url}

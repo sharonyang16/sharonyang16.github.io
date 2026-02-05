@@ -18,7 +18,7 @@ const Projects = ({
       >
         {title}
       </Typography>
-      <div className="flex flex-col gap-8 col-span-2 py-8">
+      <div className="flex flex-col gap-16 col-span-2 py-8">
         {projects.map((project) => (
           <ProjectCard key={project.id} {...project} />
         ))}
