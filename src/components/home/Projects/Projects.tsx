@@ -1,6 +1,9 @@
+"use client";
 import { ProjectCardProps } from "@/types/data";
+import Button from "@/components/base/Button/Button";
 import Typography from "@/components/base/Typography/Typography";
 import ProjectCard from "./ProjectCard";
+import useExpand from "@/hooks/useExpand";
 
 const Projects = ({
   title,
@@ -9,15 +12,28 @@ const Projects = ({
   title: string;
   projects: ProjectCardProps[];
 }) => {
+  const { isExpanded, setIsExpanded } = useExpand();
+
   return (
     <>
-      <Typography id={title.toLowerCase()} intent="subheadding1">
+      <Typography
+        id={title.toLowerCase()}
+        intent="subheadding1"
+        className="lg:py-8"
+      >
         {title}
       </Typography>
-      <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 col-span-2 ">
-        {projects.map((project) => (
+      <div className="flex flex-col gap-16 col-span-2 lg:py-8">
+        {projects.slice(0, isExpanded ? projects.length : 3).map((project) => (
           <ProjectCard key={project.id} {...project} />
         ))}
+        <Button
+          onClick={() => setIsExpanded(!isExpanded)}
+          variant="secondary"
+          className="self-center"
+        >
+          {isExpanded ? "Show Less" : "Show More"}
+        </Button>
       </div>
     </>
   );
