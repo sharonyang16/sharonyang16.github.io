@@ -16,6 +16,21 @@
     "technologies": ["Next.js", "JavaScript", "Tailwind CSS"]
   },
   {
+    "id": 6,
+    "title": "Typing Game",
+    "url": "https://github.com/sharonyang16/typing-game",
+    "thumbnail": "/assets/code/typing-mockup.png",
+    "description": "A full-stack typing game with test scores and leaderboards.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Express.js",
+      "TypeORM",
+      "Tailwind CSS",
+      "Firebase"
+    ]
+  },
+  {
     "id": 8,
     "title": "AI Task Tracker",
     "url": "https://github.com/sharonyang16/ai-task-tracker",
@@ -27,21 +42,6 @@
       "FastAPI",
       "Python",
       "Supabase"
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Typing Game",
-    "url": "https://github.com/sharonyang16/typing-game",
-    "thumbnail": "/assets/code/typing-mockup.png",
-    "description": "A full-stack typing game.",
-    "technologies": [
-      "Next.js",
-      "TypeScript",
-      "Express.js",
-      "TypeORM",
-      "Tailwind CSS",
-      "Firebase"
     ]
   },
   {
