@@ -19,11 +19,11 @@ const Projects = ({
       <Typography
         id={title.toLowerCase()}
         intent="subheadding1"
-        className="py-8"
+        className="lg:py-8"
       >
         {title}
       </Typography>
-      <div className="flex flex-col gap-16 col-span-2 py-8">
+      <div className="flex flex-col gap-16 col-span-2 lg:py-8">
         {projects.slice(0, isExpanded ? projects.length : 3).map((project) => (
           <ProjectCard key={project.id} {...project} />
         ))}
