@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFigma, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaCode } from "react-icons/fa6";
 import { MdArrowOutward, MdEmail } from "react-icons/md";
 import { LinkIconProps } from "@/types/data";
@@ -22,6 +22,8 @@ export const ProjectLinkIcon = ({ name }: LinkIconProps) => {
       return <FaCode className="text-xl" />;
     case "live":
       return <MdArrowOutward className="text-xl" />;
+    case "figma":
+      return <FaFigma className="text-xl" />;
     default:
       return <div></div>;
   }
