@@ -1,7 +1,7 @@
 import { HeroProps } from "@/types/data";
 import Typography from "@/components//base/Typography/Typography";
 import Link from "@/components/base/Link/Link";
-import { linkNameToIcon } from "@/utils/data.utils";
+import { HeroLinkIcon } from "@/utils/data.utils";
 
 const Hero = ({ name, role, links, summary }: HeroProps) => {
   return (
@@ -11,14 +11,14 @@ const Hero = ({ name, role, links, summary }: HeroProps) => {
       <div className="flex gap-6">
         {links.map((link) => (
           <Link
-            key={link.name}
+            key={link.type}
             variant="buttonSecondary"
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full"
           >
-            {linkNameToIcon(link.name)}
+            <HeroLinkIcon name={link.type} />
           </Link>
         ))}
       </div>
