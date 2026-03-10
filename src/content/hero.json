@@ -3,15 +3,15 @@
   "role": "Software Engineer",
   "links": [
     {
-      "name": "GitHub",
+      "type": "GitHub",
       "url": "https://github.com/sharonyang16"
     },
     {
-      "name": "LinkedIn",
+      "type": "LinkedIn",
       "url": "https://www.linkedin.com/in/sharon-y/"
     },
     {
-      "name": "Email",
+      "type": "Email",
       "url": "mailto:sharonyyang0@gmail.com"
     }
   ],

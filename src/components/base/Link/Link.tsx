@@ -6,9 +6,9 @@ const linkVariants = cva(" ", {
   variants: {
     variant: {
       buttonPrimary:
-        "p-2 rounded-lg bg-black text-white dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-100",
+        "p-2 transition-colors rounded-lg bg-black text-white dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-100",
       buttonSecondary:
-        "p-2 rounded-lg border-1 border-black dark:border-white hover:bg-gray-100 dark:hover:bg-gray-800",
+        "p-2 transition-colors rounded-lg border-1 border-black dark:border-white hover:bg-gray-100 dark:hover:bg-gray-800",
     },
   },
   defaultVariants: {

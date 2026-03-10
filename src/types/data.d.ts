@@ -16,18 +16,24 @@ export type ExperiencesProps = {
 export type ProjectCardProps = {
   id: number;
   title: string;
-  url?: string;
+  links?: Link[];
   thumbnail?: string;
   description: string;
   technologies: string[];
 };
 
+export type Link = {
+  type: string;
+  url: string;
+};
+
 export type HeroProps = {
   name: string;
   role: string;
-  links: {
-    name: string;
-    url: string;
-  }[];
+  links: Link[];
   summary: string;
+};
+
+export type LinkIconProps = {
+  name: string;
 };

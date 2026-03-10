@@ -2,10 +2,12 @@ import Image from "next/image";
 import { ProjectCardProps } from "@/types/data";
 import Typography from "@/components/base/Typography/Typography";
 import Chip from "@/components/base/Chip/Chip";
+import Link from "@/components/base/Link/Link";
+import { ProjectLinkIcon } from "@/utils/data.utils";
 
 const ProjectCard = ({
   title,
-  url,
+  links,
   thumbnail,
   description,
   technologies,
@@ -24,17 +26,25 @@ const ProjectCard = ({
           )}
         </div>
       </div>
-      <div className="flex flex-col gap-2 px-1">
-        <a
-          href={url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={` ${
-            url ? "hover:text-gray-700 dark:hover:text-gray-300" : ""
-          }`}
-        >
+      <div className="flex flex-col gap-1 pl-1">
+        <div className="flex justify-between items-center min-h-10">
           <Typography intent="subheadding2">{title}</Typography>
-        </a>
+          <div className="flex gap-2">
+            {links?.map((link) => (
+              <Link
+                key={`${title}-${link.type}`}
+                variant="buttonSecondary"
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full"
+              >
+                <ProjectLinkIcon name={link.type} />
+              </Link>
+            ))}
+          </div>
+        </div>
+
         <Typography intent="paragraph2">{description}</Typography>
       </div>
       <div className="flex flex-wrap gap-2">
