@@ -33,3 +33,7 @@ export type HeroProps = {
   links: Link[];
   summary: string;
 };
+
+export type LinkIconProps = {
+  name: string;
+};
