@@ -24,18 +24,19 @@ const ProjectCard = ({
           )}
         </div>
       </div>
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={` ${
-          url ? "hover:text-gray-700 dark:hover:text-gray-300" : ""
-        }`}
-      >
-        <Typography intent="subheadding2">{title}</Typography>
-      </a>
-
-      <Typography intent="paragraph2">{description}</Typography>
+      <div className="flex flex-col gap-2 px-1">
+        <a
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={` ${
+            url ? "hover:text-gray-700 dark:hover:text-gray-300" : ""
+          }`}
+        >
+          <Typography intent="subheadding2">{title}</Typography>
+        </a>
+        <Typography intent="paragraph2">{description}</Typography>
+      </div>
       <div className="flex flex-wrap gap-2">
         {technologies.map((name) => (
           <Chip key={name}>

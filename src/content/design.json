@@ -1,5 +1,12 @@
 [
   {
+    "id": 7,
+    "title": "Lift Off",
+    "thumbnail": "/assets/design/lift-off-mockups.png",
+    "description": "Strength training log book app.",
+    "technologies": ["Mobile", "Figma", "Illustrator", "User Research"]
+  },
+  {
     "id": 0,
     "title": "Oven Buddy",
     "thumbnail": "/assets/design/oven-buddy-mockups.png",
