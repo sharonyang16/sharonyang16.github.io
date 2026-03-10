@@ -26,6 +26,36 @@
     "technologies": ["Next.js", "JavaScript", "Tailwind CSS"]
   },
   {
+    "id": 4,
+    "title": "FinishLine",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Northeastern-Electric-Racing/FinishLine"
+      },
+      {
+        "type": "live",
+        "url": "https://finishlinebyner.com"
+      }
+    ],
+    "thumbnail": "/assets/code/finishline-mockup.png",
+    "description": "Contributed to internal project management dashboard for Northeastern Electric Racing.",
+    "technologies": ["React", "TypeScript", "Express.js", "Prisma", "Jest"]
+  },
+  {
+    "id": 5,
+    "title": "Image Processor",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/sharonyang16/image-processing"
+      }
+    ],
+    "thumbnail": "/assets/code/image-mockup.png",
+    "description": "Image processing and manipulation app with various filters.",
+    "technologies": ["Java", "JUnit", "Java Swing"]
+  },
+  {
     "id": 6,
     "title": "Typing Game",
     "links": [
@@ -98,7 +128,6 @@
     "description": "A Korean-style Photo Booth app.",
     "technologies": ["Next.js", "TypeScript", "Tailwind CSS"]
   },
-
   {
     "id": 2,
     "title": "Timbers' Nap",
@@ -111,36 +140,5 @@
     "thumbnail": "/assets/code/timbers-mockup.png",
     "description": "3D-platformer with 3 engaging levels. ",
     "technologies": ["Unity3D", "C#"]
-  },
-
-  {
-    "id": 4,
-    "title": "FinishLine",
-    "links": [
-      {
-        "type": "github",
-        "url": ""
-      },
-      {
-        "type": "live",
-        "url": "https://finishlinebyner.com"
-      }
-    ],
-    "thumbnail": "/assets/code/finishline-mockup.png",
-    "description": "Internal project management dashboard for Northeastern Electric Racing.",
-    "technologies": ["React", "TypeScript", "Express.js", "Prisma", "Jest"]
-  },
-  {
-    "id": 5,
-    "title": "Image Processor",
-    "links": [
-      {
-        "type": "github",
-        "url": "https://github.com/sharonyang16/image-processing"
-      }
-    ],
-    "thumbnail": "/assets/code/image-mockup.png",
-    "description": "Image processing and manipulation app with various filters.",
-    "technologies": ["Java", "JUnit", "Java Swing"]
   }
 ]

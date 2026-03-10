@@ -26,8 +26,8 @@ const ProjectCard = ({
           )}
         </div>
       </div>
-      <div className="flex flex-col gap-2 px-1">
-        <div className="flex justify-between items-center">
+      <div className="flex flex-col gap-1 pl-1">
+        <div className="flex justify-between items-center min-h-10">
           <Typography intent="subheadding2">{title}</Typography>
           <div className="flex gap-2">
             {links?.map((link) => (
