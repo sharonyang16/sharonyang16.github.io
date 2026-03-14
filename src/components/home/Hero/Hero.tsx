@@ -7,7 +7,7 @@ const Hero = ({ name, role, links, summary }: HeroProps) => {
   return (
     <div className="flex flex-col w-full gap-6">
       <Typography intent="heading">{name}</Typography>
-      <Typography intent="subheadding1">{role}</Typography>
+      <Typography intent="paragraph1">{summary}</Typography>
       <div className="flex gap-6">
         {links.map((link) => (
           <Link
@@ -22,7 +22,6 @@ const Hero = ({ name, role, links, summary }: HeroProps) => {
           </Link>
         ))}
       </div>
-      <Typography intent="paragraph1">{summary}</Typography>
     </div>
   );
 };
