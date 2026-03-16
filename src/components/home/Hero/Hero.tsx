@@ -3,10 +3,10 @@ import Typography from "@/components//base/Typography/Typography";
 import Link from "@/components/base/Link/Link";
 import { HeroLinkIcon } from "@/utils/data.utils";
 
-const Hero = ({ name, role, links, summary }: HeroProps) => {
+const Hero = ({ headline, links, summary }: HeroProps) => {
   return (
     <div className="flex flex-col w-full gap-6">
-      <Typography intent="heading">{name}</Typography>
+      <Typography intent="heading">{headline}</Typography>
       <Typography intent="paragraph1">{summary}</Typography>
       <div className="flex gap-6">
         {links.map((link) => (

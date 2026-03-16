@@ -1,6 +1,5 @@
 {
-  "name": "Hi, I'm Sharon.",
-  "role": "Software Engineer",
+  "headline": "Hi, I'm Sharon.",
   "links": [
     {
       "type": "GitHub",
@@ -15,5 +14,5 @@
       "url": "mailto:sharonyyang0@gmail.com"
     }
   ],
-  "summary": "I’m a recent graduate with a B.S. in Computer Science and Design from Northeastern University. I'm passionate about fullstack web development and aim to create accessible, user-friendly applications."
+  "summary": "I am a full stack software engineer with a B.S. in Computer Science and Design from Northeastern University. I'm passionate about creating accessible, user-friendly applications."
 }
