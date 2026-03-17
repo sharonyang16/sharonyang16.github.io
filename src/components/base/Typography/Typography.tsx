@@ -12,6 +12,7 @@ const typographyVariants = cva("", {
       label2: "font-medium text-sm leading-[1.25]",
       paragraph1: "font-normal text-base leading-[1.25]",
       paragraph2: "font-normal text-sm leading-[1.25]",
+      caption: "font-normal text-xs",
     },
   },
   defaultVariants: {

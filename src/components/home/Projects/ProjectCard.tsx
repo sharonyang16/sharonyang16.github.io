@@ -49,9 +49,7 @@ const ProjectCard = ({
       </div>
       <div className="flex flex-wrap gap-2">
         {technologies.map((name) => (
-          <Chip key={name}>
-            <Typography intent="label2">{name}</Typography>
-          </Chip>
+          <Chip key={name}>{name}</Chip>
         ))}
       </div>
     </div>
