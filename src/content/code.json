@@ -9,7 +9,7 @@
         "url": "https://cs4530-s25-404.onrender.com/"
       }
     ],
-    "description": "A full-stack Stack Overflow clone with Single Sign-On (SSO) authentication and natural language searching features. UI updated using Chakra UI.",
+    "description": "A full-stack Stack Overflow clone with Single Sign-On (SSO) authentication and natural language searching features. UI refreshed using Chakra UI.",
     "technologies": [
       "React",
       "TypeScript",
@@ -29,7 +29,7 @@
       }
     ],
     "thumbnail": "/assets/code/chewy-mockup.png",
-    "description": "A user-friendly vet finder app. Built for and awarded 1st place at Chewy's 2023 Diversity Hackathon.",
+    "description": "A user-friendly vet finder with filters. Built for and awarded 1st place at Chewy's 2023 Diversity Hackathon.",
     "technologies": ["Next.js", "JavaScript", "Tailwind CSS"]
   },
   {
@@ -46,7 +46,7 @@
       }
     ],
     "thumbnail": "/assets/code/finishline-mockup.png",
-    "description": "Contributed to internal project management dashboard for Northeastern Electric Racing.",
+    "description": "Project management dashboard for Northeastern Electric Racing.",
     "technologies": ["React", "TypeScript", "Express.js", "Prisma", "Jest"]
   },
   {
@@ -76,7 +76,7 @@
       }
     ],
     "thumbnail": "/assets/code/typing-mockup.png",
-    "description": "A full-stack typing game with test scores and leaderboards.",
+    "description": "A full stack typing game with test scores and leaderboards.",
     "technologies": [
       "Next.js",
       "TypeScript",
@@ -96,7 +96,7 @@
       }
     ],
     "thumbnail": "/assets/code/task-tracker-mockup.png",
-    "description": "Task tracking app with AI recommendations.",
+    "description": "Native task tracker with AI recommendations.",
     "technologies": [
       "React Native",
       "TypeScript",
@@ -104,19 +104,6 @@
       "Python",
       "Supabase"
     ]
-  },
-  {
-    "id": 0,
-    "title": "Personal Website",
-    "thumbnail": "/assets/code/personal-website-mockup.png",
-    "links": [
-      {
-        "type": "github",
-        "url": "https://github.com/sharonyang16/sharonyang16.github.io"
-      }
-    ],
-    "description": "This website!",
-    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"]
   },
   {
     "id": 7,
