@@ -5,10 +5,12 @@ import { HeroLinkIcon } from "@/utils/data.utils";
 
 const Hero = ({ headline, links, summary }: HeroProps) => {
   return (
-    <div className="flex flex-col w-full gap-6">
-      <Typography intent="heading">{headline}</Typography>
-      <Typography intent="paragraph1">{summary}</Typography>
-      <div className="flex gap-6">
+    <div className="flex flex-col w-full gap-8">
+      <div className="flex flex-col gap-2">
+        <Typography intent="heading">{headline}</Typography>
+        <Typography intent="paragraph1">{summary}</Typography>
+      </div>
+      <div className="flex gap-4">
         {links.map((link) => (
           <Link
             key={link.type}
