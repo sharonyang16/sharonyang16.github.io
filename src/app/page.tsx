@@ -8,11 +8,11 @@ import designData from "@/content/design.json";
 
 export default function Home() {
   return (
-    <div className="flex flex-col lg:grid lg:grid-cols-3 gap-x-8 gap-y-12 py-16">
+    <div className="flex flex-col lg:grid lg:grid-cols-3 gap-x-8 gap-y-12 pt-4 pb-16">
       <div className="col-span-2">
         <Hero {...heroData} />
       </div>
-      <hr className="col-span-3" />
+      <div />
       <Experiences {...experienceData} />
       <Projects title="Code" projects={codeData} />
       <Projects title="Design" projects={designData} />
