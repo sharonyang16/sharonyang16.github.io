@@ -27,7 +27,7 @@ const ProjectCard = ({
         </div>
       </div>
       <div className="flex flex-col gap-1 pl-1">
-        <div className="flex justify-between items-center min-h-10">
+        <div className="flex justify-between items-end min-h-10">
           <Typography intent="subheadding2">{title}</Typography>
           <div className="flex gap-2">
             {links?.map((link) => (
@@ -49,9 +49,7 @@ const ProjectCard = ({
       </div>
       <div className="flex flex-wrap gap-2">
         {technologies.map((name) => (
-          <Chip key={name}>
-            <Typography intent="label2">{name}</Typography>
-          </Chip>
+          <Chip key={name}>{name}</Chip>
         ))}
       </div>
     </div>

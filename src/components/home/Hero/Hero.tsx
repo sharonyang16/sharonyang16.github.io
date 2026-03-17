@@ -3,12 +3,14 @@ import Typography from "@/components//base/Typography/Typography";
 import Link from "@/components/base/Link/Link";
 import { HeroLinkIcon } from "@/utils/data.utils";
 
-const Hero = ({ name, role, links, summary }: HeroProps) => {
+const Hero = ({ headline, links, summary }: HeroProps) => {
   return (
-    <div className="flex flex-col w-full gap-6">
-      <Typography intent="heading">{name}</Typography>
-      <Typography intent="subheadding1">{role}</Typography>
-      <div className="flex gap-6">
+    <div className="flex flex-col w-full gap-8 py-16">
+      <div className="flex flex-col gap-2">
+        <Typography intent="heading">{headline}</Typography>
+        <Typography intent="paragraph1">{summary}</Typography>
+      </div>
+      <div className="flex gap-4">
         {links.map((link) => (
           <Link
             key={link.type}
@@ -22,7 +24,6 @@ const Hero = ({ name, role, links, summary }: HeroProps) => {
           </Link>
         ))}
       </div>
-      <Typography intent="paragraph1">{summary}</Typography>
     </div>
   );
 };

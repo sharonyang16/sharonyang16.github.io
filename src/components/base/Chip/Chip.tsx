@@ -2,16 +2,19 @@ import React from "react";
 import { VariantProps, cva } from "class-variance-authority";
 import { cn } from "../utils";
 
-const chipVariants = cva("", {
-  variants: {
-    variant: {
-      primary: "bg-gray-200 dark:bg-gray-800 rounded-full w-fit py-1 px-2",
+const chipVariants = cva(
+  "inline-flex items-center rounded-full text-sm w-fit py-0.5 px-2",
+  {
+    variants: {
+      variant: {
+        primary: "bg-gray-200 dark:bg-gray-800",
+      },
+    },
+    defaultVariants: {
+      variant: "primary",
     },
   },
-  defaultVariants: {
-    variant: "primary",
-  },
-});
+);
 
 export interface ChipProps
   extends React.HTMLAttributes<HTMLElement>,

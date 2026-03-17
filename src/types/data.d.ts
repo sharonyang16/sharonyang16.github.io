@@ -28,8 +28,7 @@ export type Link = {
 };
 
 export type HeroProps = {
-  name: string;
-  role: string;
+  headline: string;
   links: Link[];
   summary: string;
 };

@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
-import { Public_Sans } from "next/font/google";
+import { Geist, Instrument_Serif } from "next/font/google";
 import Header from "@/components/layout/Header/Header";
 import "@/styles/globals.css";
 
-const publicSans = Public_Sans({
-  variable: "--font-public-sans",
+const geist = Geist({
+  variable: "--font-sans",
   subsets: ["latin"],
+});
+
+const instrumentSerif = Instrument_Serif({
+  variable: "--font-serif",
+  subsets: ["latin"],
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -19,9 +25,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${geist.className}`}>
       <body
-        className={`${publicSans.variable} antialiased m-auto  min-h-full flex flex-col max-w-[1184px] px-10 bg-white text-black dark:bg-black dark:text-white`}
+        className={`$${geist.variable} ${instrumentSerif.variable} antialiased m-auto  min-h-full flex flex-col max-w-[1184px] px-10 bg-white text-black dark:bg-black dark:text-white`}
       >
         <Header />
         {children}
