@@ -19,6 +19,11 @@ const Hero = ({ headline, links, summary }: HeroProps) => {
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full"
+            aria-label={
+              link.type === "Email"
+                ? `Send an email to Sharon Yang`
+                : `${link.type} profile`
+            }
           >
             <HeroLinkIcon name={link.type} />
           </Link>
