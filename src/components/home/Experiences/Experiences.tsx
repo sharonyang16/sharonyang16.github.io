@@ -15,6 +15,7 @@ const Experiences = ({ resumeDownloadUrl, experiences }: ExperiencesProps) => {
           className="w-fit"
           href={resumeDownloadUrl}
           rel="noopener noreferrer"
+          aria-label="Download Sharon Yang's resume"
         >
           <div className="flex gap-2 items-center">
             <MdDownloading className="text-xl" />
