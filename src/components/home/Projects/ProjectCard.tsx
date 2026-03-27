@@ -3,7 +3,7 @@ import { ProjectCardProps } from "@/types/data";
 import Typography from "@/components/base/Typography/Typography";
 import Chip from "@/components/base/Chip/Chip";
 import Link from "@/components/base/Link/Link";
-import { ProjectLinkIcon } from "@/utils/data.utils";
+import { ProjectLinkIcon, toAriaLabel } from "@/utils/data.utils";
 
 const ProjectCard = ({
   title,
@@ -38,6 +38,7 @@ const ProjectCard = ({
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full"
+                aria-label={toAriaLabel(title, link.type)}
               >
                 <ProjectLinkIcon name={link.type} />
               </Link>
