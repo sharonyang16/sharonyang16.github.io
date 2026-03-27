@@ -31,6 +31,7 @@ const Projects = ({
           onClick={() => setIsExpanded(!isExpanded)}
           variant="secondary"
           className="self-center"
+          aria-label={`${isExpanded ? "Show less" : "Show more"} ${title.toLowerCase()} projects`}
         >
           {isExpanded ? "Show Less" : "Show More"}
         </Button>

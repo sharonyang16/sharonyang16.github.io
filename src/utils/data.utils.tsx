@@ -28,3 +28,16 @@ export const ProjectLinkIcon = ({ name }: LinkIconProps) => {
       return <div></div>;
   }
 };
+
+export const toAriaLabel = (projectName: string, linkType: string) => {
+  switch (linkType) {
+    case "github":
+      return `Visit ${projectName} Github repository`;
+    case "live":
+      return `Visit ${projectName} live site`;
+    case "figma":
+      return `View Figma prototype for ${projectName}`;
+    default:
+      return `${projectName} ${linkType}`;
+  }
+};

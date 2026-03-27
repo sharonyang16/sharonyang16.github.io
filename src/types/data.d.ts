@@ -25,6 +25,7 @@ export type ProjectCardProps = {
 export type Link = {
   type: string;
   url: string;
+  ariaLabel?: string;
 };
 
 export type HeroProps = {

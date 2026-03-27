@@ -19,6 +19,7 @@ const Hero = ({ headline, links, summary }: HeroProps) => {
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full"
+            aria-label={link.ariaLabel}
           >
             <HeroLinkIcon name={link.type} />
           </Link>
