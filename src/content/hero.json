@@ -8,7 +8,7 @@
     },
     {
       "type": "LinkedIn",
-      "url": "https://www.linkedin.com/in/sharon-y/",
+      "url": "https://www.linkedin.com/in/sharonyyang/",
       "ariaLabel": "LinkedIn profile"
     },
     {
@@ -17,5 +17,5 @@
       "ariaLabel": "Send an email to Sharon"
     }
   ],
-  "summary": "I am a software engineer who recently graduated with a B.S. in Computer Science and Design from Northeastern University. I'm passionate about creating accessible, user-friendly applications."
+  "summary": "I am a software engineer with a B.S. in Computer Science and Design from Northeastern University. I'm passionate about creating accessible, user-friendly applications."
 }
