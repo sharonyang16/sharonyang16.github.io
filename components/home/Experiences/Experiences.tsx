@@ -2,10 +2,10 @@
 import { MdDownloading } from "react-icons/md";
 import Link from "@/components/base/Link/Link";
 import Typography from "@/components/base/Typography/Typography";
+import { experiences, resumeDownloadUrl } from "./data";
 import ExperienceCard from "./ExperienceCard";
-import { ExperiencesProps } from "@/types/data";
 
-const Experiences = ({ resumeDownloadUrl, experiences }: ExperiencesProps) => {
+const Experiences = () => {
   return (
     <>
       <div id="experience" className="flex flex-col gap-4 lg:py-8">

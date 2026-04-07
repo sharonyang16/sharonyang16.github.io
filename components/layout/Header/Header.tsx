@@ -1,8 +1,8 @@
 "use client";
 import Typography from "@/components/base/Typography/Typography";
-import headerLinks from "@/content/headerLinks.json";
 import Logo from "./Logo";
 import ThemeButton from "./ThemeButton";
+import { nav } from "./data";
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
         <div className="hidden lg:block">
           <div className="flex gap-8 items-center">
             <nav className="flex gap-8">
-              {headerLinks.map((link: string) => (
+              {nav.map((link: string) => (
                 <a key={link} href={`#${link}`}>
                   <Typography intent={"label1"}>{link}</Typography>
                 </a>
