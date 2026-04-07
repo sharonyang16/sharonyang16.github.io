@@ -2,8 +2,8 @@
 import { ProjectCardProps } from "@/types/data";
 import Button from "@/components/base/Button/Button";
 import Typography from "@/components/base/Typography/Typography";
-import ProjectCard from "./ProjectCard";
 import useExpand from "@/hooks/useExpand";
+import ProjectCard from "./ProjectCard";
 
 const Projects = ({
   title,

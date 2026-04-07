@@ -1,5 +1,5 @@
 import { HeroProps } from "@/types/data";
-import Typography from "@/components//base/Typography/Typography";
+import Typography from "@/components/base/Typography/Typography";
 import Link from "@/components/base/Link/Link";
 import { HeroLinkIcon } from "@/utils/data.utils";
 
