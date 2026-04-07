@@ -1,7 +1,7 @@
 "use client";
-import Typography from "../../base/Typography/Typography";
+import Typography from "@/components/base/Typography/Typography";
 import headerLinks from "@/content/headerLinks.json";
-import Logo from "../../../assets/Logo";
+import Logo from "./Logo";
 import ThemeButton from "./ThemeButton";
 
 const Header = () => {
