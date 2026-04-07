@@ -1,9 +1,9 @@
 import Image from "next/image";
-import { ProjectCardProps } from "@/types/data";
-import Typography from "@/components/base/Typography/Typography";
-import Chip from "@/components/base/Chip/Chip";
-import Link from "@/components/base/Link/Link";
-import { ProjectLinkIcon, toAriaLabel } from "@/utils/data.utils";
+import { ProjectCardProps } from "../../../types/data";
+import Typography from "../../base/Typography/Typography";
+import Chip from "../../base/Chip/Chip";
+import Link from "../../base/Link/Link";
+import { ProjectLinkIcon, toAriaLabel } from "../../../utils/data.utils";
 
 const ProjectCard = ({
   title,

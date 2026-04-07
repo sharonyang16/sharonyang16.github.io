@@ -1,9 +1,9 @@
 "use client";
 import { MdDownloading } from "react-icons/md";
-import Link from "@/components/base/Link/Link";
-import Typography from "@/components/base/Typography/Typography";
+import Link from "../../base/Link/Link";
+import Typography from "../../base/Typography/Typography";
 import ExperienceCard from "./ExperienceCard";
-import { ExperiencesProps } from "@/types/data";
+import { ExperiencesProps } from "../../../types/data";
 
 const Experiences = ({ resumeDownloadUrl, experiences }: ExperiencesProps) => {
   return (
