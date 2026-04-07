@@ -8,11 +8,6 @@ export type ExperienceCardProps = {
   technologies: string[];
 };
 
-export type ExperiencesProps = {
-  resumeDownloadUrl: string;
-  experiences: ExperienceCardProps[];
-};
-
 export type ProjectCardProps = {
   id: number;
   title: string;
@@ -26,12 +21,7 @@ export type Link = {
   type: string;
   url: string;
   ariaLabel?: string;
-};
-
-export type HeroProps = {
-  headline: string;
-  links: Link[];
-  summary: string;
+  icon?: ReactNode;
 };
 
 export type LinkIconProps = {

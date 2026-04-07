@@ -1,9 +1,8 @@
-import { HeroProps } from "@/types/data";
 import Typography from "@/components/base/Typography/Typography";
 import Link from "@/components/base/Link/Link";
-import { HeroLinkIcon } from "@/utils/data.utils";
+import { headline, links, summary } from "./data";
 
-const Hero = ({ headline, links, summary }: HeroProps) => {
+const Hero = () => {
   return (
     <div className="flex flex-col w-full gap-8 py-16">
       <div className="flex flex-col gap-2">
@@ -21,7 +20,7 @@ const Hero = ({ headline, links, summary }: HeroProps) => {
             className="rounded-full"
             aria-label={link.ariaLabel}
           >
-            <HeroLinkIcon name={link.type} />
+            <link.icon className="text-3xl" />
           </Link>
         ))}
       </div>
