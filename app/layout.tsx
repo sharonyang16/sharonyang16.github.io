@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Instrument_Serif } from "next/font/google";
-import Header from "../components/layout/Header/Header";
+import Header from "@/components/layout/Header/Header";
 import "@/styles/globals.css";
 
 const geist = Geist({
