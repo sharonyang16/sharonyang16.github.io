@@ -2,7 +2,6 @@ import Hero from "@/components/home/Hero/Hero";
 import Experiences from "@/components/home/Experiences/Experiences";
 import Projects from "@/components/home/Projects/Projects";
 import heroData from "@/content/hero.json";
-import experienceData from "@/content/experience.json";
 import codeData from "@/content/code.json";
 import designData from "@/content/design.json";
 
@@ -13,7 +12,7 @@ export default function Home() {
         <Hero {...heroData} />
       </div>
       <div />
-      <Experiences {...experienceData} />
+      <Experiences />
       <Projects title="Code" projects={codeData} />
       <Projects title="Design" projects={designData} />
     </div>
