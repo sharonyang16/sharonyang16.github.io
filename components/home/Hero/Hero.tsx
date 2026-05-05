@@ -1,6 +1,5 @@
 import Typography from "@/components/base/Typography/Typography";
-import Link from "@/components/base/Link/Link";
-import { headline, links, summary } from "./data";
+import { headline, summary } from "./data";
 
 const Hero = () => {
   return (
@@ -8,21 +7,6 @@ const Hero = () => {
       <div className="flex flex-col gap-2">
         <Typography intent="heading">{headline}</Typography>
         <Typography intent="paragraph1">{summary}</Typography>
-      </div>
-      <div className="flex gap-4">
-        {links.map((link) => (
-          <Link
-            key={link.type}
-            variant="buttonSecondary"
-            href={link.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-full"
-            aria-label={link.ariaLabel}
-          >
-            <link.icon className="text-3xl" />
-          </Link>
-        ))}
       </div>
     </div>
   );
