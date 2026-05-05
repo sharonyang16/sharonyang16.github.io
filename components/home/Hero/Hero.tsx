@@ -1,4 +1,4 @@
-import Typography from "@/components/base/Typography/Typography";
+import { Typography } from "@/components/base";
 import { headline, summary } from "./data";
 
 const Hero = () => {
