@@ -6,7 +6,7 @@ import { links } from "./data";
 const Footer = () => {
   return (
     <footer className="w-full">
-      <div className="flex items-center justify-between pt-4 pb-16">
+      <div className="flex items-center justify-between pt-8 pb-16">
         <Typography intent="paragraph2" className="col-span-2">
           © {new Date().getFullYear()} Sharon Yang. All rights reserved.
         </Typography>
