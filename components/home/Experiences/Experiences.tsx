@@ -1,7 +1,6 @@
 "use client";
 import { MdDownloading } from "react-icons/md";
-import Link from "@/components/base/Link/Link";
-import Typography from "@/components/base/Typography/Typography";
+import { Link, Typography } from "@/components/base";
 import { experiences, resumeDownloadUrl } from "./data";
 import ExperienceCard from "./ExperienceCard";
 

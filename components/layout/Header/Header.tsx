@@ -1,5 +1,5 @@
 "use client";
-import Typography from "@/components/base/Typography/Typography";
+import { Typography } from "@/components/base";
 import Logo from "./Logo";
 import ThemeButton from "./ThemeButton";
 import { nav } from "./data";
