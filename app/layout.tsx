@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Instrument_Serif } from "next/font/google";
-import Header from "@/components/layout/Header/Header";
+import Layout from "@/components/layout/Layout";
 import "@/styles/globals.css";
 
 const geist = Geist({
@@ -29,8 +29,7 @@ export default function RootLayout({
       <body
         className={`$${geist.variable} ${instrumentSerif.variable} antialiased m-auto  min-h-full flex flex-col max-w-[1184px] px-10 bg-white text-black dark:bg-black dark:text-white`}
       >
-        <Header />
-        {children}
+        <Layout>{children}</Layout>
       </body>
     </html>
   );

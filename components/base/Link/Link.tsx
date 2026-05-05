@@ -5,6 +5,7 @@ import { cn } from "../utils";
 const linkVariants = cva(" ", {
   variants: {
     variant: {
+      primary: "transition-colors text-black dark:text-white ",
       buttonPrimary:
         "p-2 transition-colors rounded-lg bg-black text-white dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-100",
       buttonSecondary:
